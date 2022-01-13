@@ -1,60 +1,71 @@
-## IEEE 802.15.4
+Technical Reference Manual: {link}
+
+## Bluedroid
+
+### Bluetooth Low Energy
 
 **Added**
-* Added IEEE 802.15.4 component, support IEEE 802.15.4 driver with pre-build library
-* Added Zigbee pending mode and config coordinator API
+* Added option to enable/disable ESP32 controller RPA 
+* Added an option in menuconfig to configure maximum GATT services 
+* Added reconnection function to try reconnect after the connection fails to be established 
+* Added option to enable multi-connection 
+* Supported HID examples for ESP32-C3 and ESP32-S3 
+* Added UHCI example to ESP32-C3, used for Bluetooth Controller only mode through HCI UART transport
+* Added check if the BLE extend connection parameter is valid
 
 **Changed**
-* Set IEEE 802.15.4 default PTI to 6
-
-## OpenThread
-
-HIGHLIGHT_EXAMPLE:
-_Bad entry, mixes additions and removals. Must be split into two: one for addition and one for removal_
-* Remove openthread-core-esp32x-config.h, added openthread-core-esp32x-cli-config.h and openthread-core-esp32x-rcp-config.h
-
-**Added**
-* Added OpenThread submodule
-* Added OpenThread porting for ESP32
-* Added OpenThread cli example
-* Added otPlatRadioSetMacKey and otPlatRadioSetMacFrameCounter implementation.
-* Support microsecond timer
-* Added esp_openthread_netif_init() api for initializing the OpenThread lwIP interface.
-* Added OpenThread lwIP interface to the ot_cli example.
-* Enable ot_cli on ESP32H2-Beta chip
-* Enable multicast ping in OpenThread examples by default
-* Added esp_cli_custom_command
-* Added TCP/UDP socket example
-* Added esp_openthread_init esp_openthread_launch_mainloop and esp_openthread_deinit for simplified OpenThread initialization and launch logic.
-* Added the OPENTHREAD_BORDER_ROUTER Kconfig option
-* Added platform UDP and task queue port for the border agent feature
-* Added esp_openthread_border_router_* api
-* Added the esp_otbr example.
-* Introduced a config option to enable/disable extended features in ot_cli example
-* Support ICMPv6 auto config
-* Support SRP service delegation
-* Added ftd.cmake for build FTD and radio.cmake for build RCP
-* Openthread enable ping sender module
-* Support discovery delegate in border router
-* Added iperf example
-* iperf: Support IPV6 address
-* iperf: Added new field len_send_buf, now iperf can set the length of sending buffer
-* OpenThread: Added menuconfig option to enable srp client
-* Enable dynamic logging
-* Added esp_openthread_cli APIs
-* Added history support for OpenThread CLI
-
-**Changed**
-* Updated the OpenThread cli example with the simplified implementation.
-* Porting and border routing features are now provided by prebuilt libraries
-* esp_openthread_netif_glue_init now requires platform config as its parameter
-* Publish _meshcop._mdns service
-* iperf: Merge socket send/recv logic
-* Reduce default log verbosity
+* Optimize multi-connection for ESP32-C3 and ESP32-S3 
+* Updated connection state when getting connection cancel complete
+* Modify ambiguous descriptions for BT_CTRL_BLE_MAX_ACT
+* Modify parameter description for esp_ble_gattc_open()
 
 **Fixed**
-* Updated OpenThread submodule to contain TCP message leak fix.
-* Fixed wrong uart read return value handling
+* Fixed bluedroid host report connection address error when remote device used RPA address 
+* Fixed multi-connection pair failed 
+* Fixed iPhone repaired failed for ESP32-C3 and ESP32-S3 
+* Fixed BLE 5.0 pairing failed when using random address 
+* Fixed reconnect failed when using rpa public address 
+* Fixed BLE ANON_ADV address error 
+* Fixed crash due to enable GATTC NVS cache 
+* Fixed issue of option not being set due to incorrect macro name 
+* Fixed BLE can't resolve the peer address when whitelist is enabled for ESP32. 
+* Fixed BLE connection will crash during erase flash 
+* Fixed data length update failed
+* Fixed Spelling mistakes
+* Fixed Bluedroid Host auto update PPCP after exchange connection parameters
+
+### Classic Bluetooth
+
+**Added**
+* SPP：Added API esp_spp_stop_srv_scn to stop a specific server
+* SPP：Added parameter service_name with event ESP_SPP_DISCOVERY_COMP_EVT
+* SPP：Added parameter scn with event ESP_SPP_START_EVT
+* SPP：Added parameter scn with event ESP_SPP_SRV_STOP_EVT
+* SPP: Added some common FAQs in SPP Demo README.
+* HID: Added configuration of HID task stack size (https://github.com/espressif/esp-idf/pull/6385)
+* HID: Added BTC layer and API for HID host
+* HID: Support HID Device role over BR/EDR
+
+**Changed**
+* Shortened some log messages in bluedroid
+
+**Fixed**
+* SPP: Fixed a crash caused by pairing cancel
+* HFP: Fixed crash in btc_hf_arg_deep_copy when name or number is NULL.
+* Fixed L2CAP Repeat CID
+* HFP: Fixed build error for HFP-HF when bluedroid dynamic memory allocation is enabled.
+* HF-AG: Fix ag use dynamic memory error.
+* Fixed C3/S3 multi-connection failed when device acts as master and slave at the same time
+* A2DP: Fixed A2DP sink blocked issues.
+* SPP: Fixed SPP acceptor deadlock
+* A2DP: Fixed A2DP deint crash
+* SPP: Fixed SPP memory leak
+* Fixed the timer collision in function bta_sys_start_timer() used by role switch.
+* HFP: Fixed issue that acl can't disconnect when hfp_client disconnect.
+* Fixed the crash when using legacy paring with wrong pin code
+* Fixed wrong clock_id in function time_now_us
+* Fixed single-tone sample sequence generation error in HFP examples
+
 
 ## Bluetooth Controller
 
@@ -126,243 +137,6 @@ _Bad entry, mixes additions and removals. Must be split into two: one for additi
 * Fixed crash after inquiry has finished
 * Fixed crash caused by bluetooth high level interrupt
 
-## Bluedroid
-
-### Classic Bluetooth
-
-**Added**
-* SPP：Added API esp_spp_stop_srv_scn to stop a specific server
-* SPP：Added parameter service_name with event ESP_SPP_DISCOVERY_COMP_EVT
-* SPP：Added parameter scn with event ESP_SPP_START_EVT
-* SPP：Added parameter scn with event ESP_SPP_SRV_STOP_EVT
-* SPP: Added some common FAQs in SPP Demo README.
-* HID: Added configuration of HID task stack size (https://github.com/espressif/esp-idf/pull/6385)
-* HID: Added BTC layer and API for HID host
-* HID: Support HID Device role over BR/EDR
-
-**Changed**
-* Shortened some log messages in bluedroid
-
-**Fixed**
-* SPP: Fixed a crash caused by pairing cancel
-* HFP: Fixed crash in btc_hf_arg_deep_copy when name or number is NULL.
-* Fixed L2CAP Repeat CID
-* HFP: Fixed build error for HFP-HF when bluedroid dynamic memory allocation is enabled.
-* HF-AG: Fix ag use dynamic memory error.
-* Fixed C3/S3 multi-connection failed when device acts as master and slave at the same time
-* A2DP: Fixed A2DP sink blocked issues.
-* SPP: Fixed SPP acceptor deadlock
-* A2DP: Fixed A2DP deint crash
-* SPP: Fixed SPP memory leak
-* Fixed the timer collision in function bta_sys_start_timer() used by role switch.
-* HFP: Fixed issue that acl can't disconnect when hfp_client disconnect.
-* Fixed the crash when using legacy paring with wrong pin code
-* Fixed wrong clock_id in function time_now_us
-* Fixed single-tone sample sequence generation error in HFP examples
-  
-
-### Bluetooth Low Energy
-
-**Added**
-* Added option to enable/disable ESP32 controller RPA 
-* Added an option in menuconfig to configure maximum GATT services 
-* Added reconnection function to try reconnect after the connection fails to be established 
-* Added option to enable multi-connection 
-* Supported HID examples for ESP32-C3 and ESP32-S3 
-* Added UHCI example to ESP32-C3, used for Bluetooth Controller only mode through HCI UART transport
-* Added check if the BLE extend connection parameter is valid
-
-**Changed**
-* Optimize multi-connection for ESP32-C3 and ESP32-S3 
-* Updated connection state when getting connection cancel complete
-* Modify ambiguous descriptions for BT_CTRL_BLE_MAX_ACT
-* Modify parameter description for esp_ble_gattc_open()
-
-**Fixed**
-* Fixed bluedroid host report connection address error when remote device used RPA address 
-* Fixed multi-connection pair failed 
-* Fixed iPhone repaired failed for ESP32-C3 and ESP32-S3 
-* Fixed BLE 5.0 pairing failed when using random address 
-* Fixed reconnect failed when using rpa public address 
-* Fixed BLE ANON_ADV address error 
-* Fixed crash due to enable GATTC NVS cache 
-* Fixed issue of option not being set due to incorrect macro name 
-* Fixed BLE can't resolve the peer address when whitelist is enabled for ESP32. 
-* Fixed BLE connection will crash during erase flash 
-* Fixed data length update failed
-* Fixed Spelling mistakes
-* Fixed Bluedroid Host auto update PPCP after exchange connection parameters
-
-## NimBLE
-
-**Changed**
-* Updated custom logging support for NimBLE host.
-HIGHLIGHT_EXAMPLE:
-_Could be change or fix, depends on result_
-* Check stack initialization status before executing stack commands 
-
-**Fixed**
-* Fixed WDT crash observed during security exchanges.
-* Fixed max connection configuration issue in ESP32-C3.
-* Fixed ‘Impersonation in the Passkey Entry Protocol’ Vulnerability. 
-* Fix issue of crash during timer deletion
-
-* Added separate option to enable bonding which fixed forget device iOS issue
-* Blufi on Nimble: Added fix for crash issue on ESP32-C3 during application init.
-
-**Removed**
-* Removed critical log level value from menuconfig.
-
-
-## ESP-BLE-Mesh
-
-**Added**
-* Added check of Provisioning Random & Confirmation sent/received by Provisioner (CVE-2020-26556 & CVE-2020-26560). 
-
-**Changed**
-* Recommend to use OOB mechanism to exchange Public Key (CVE-2020-26559)
-* Recommend to use randomly generated AuthValue for Static OOB (CVE-2020-26557) 
-* Make Unprovisioned Device Beacon interval configurable
-* Update the SIG recommendations for BLE Mesh CVE issues 
-* Apply the errata E16350 of BLE Mesh from Bluetooth SIG
-
-**Fixed**
-* Fixed using wrong endianness of input/output authentication number for Provisioner 
-* Fixed provisioning input/output authentication number should be at least 1 
-* Fixed filtering error when Provisioner receives heartbeat messages
-
-
-## Wi-Fi & BT Coexistence
-
-**Added**
-* Support external coexistence when WiFi starts, customers can use it for extending the other communication protocols to the mechanism of time diversion.
-
-**Fixed**
-* Coexistence: Fixed performance issue for extended active scan in coexistence scenario: use the same priority for Rx of AUX_ADV_IND and AUX_SCAN_RSP <sup>(1)</sup>
-
-## Wi-Fi Mesh
-
-**Added**
-* Added support for chain topology <sup>(1)</sup>
-* mesh/ps: Added esp_mesh_ps_duty_signaling to accelerate the broadcast of new network duty. <sup>(1)</sup>
-* mesh/recv: Added option MESH_OPT_RECV_RATE (esp32-only). <sup>(1)</sup>
-* mesh: Added esp_mesh_send_block_time to set blocking time of esp_mesh_send <sup>(1)</sup>
-* Added non mesh connections access <sup>(1)</sup>
-
-**Changed**
-* mesh/rssi: Average the router_rssi. <sup>(1)</sup>
-* mesh/ps: Close NWK-DUTY-MASTER process.<sup>(1)</sup>
-* mesh/root: Change the condition of s_extra_scan_attempts <sup>(1)</sup>
-* mesh/ps: Modify beacon interval to 300ms when ps is enabled. <sup>(1)</sup>
-* esp_mesh_send is blocked in nodes(layer>=3), when a FIXED-ROOT root is duty master <sup>(1)</sup>
-
-**Fixed**
-* mesh/c3: Fixed mesh deinit blocking issue <sup>(1)</sup>
-* mesh/c3: Fixed root has no eb for deauth frames during the networking <sup>(1)</sup>
-
-**Removed**
-* mesh/ps: Remove ps duty info from the ADD announcement packets.<sup>(1)</sup>
-* mesh/ps: Remove the support of MESH_PS_NETWORK_DUTY_APPLIED_UPLINK. <sup>(1)</sup>
-
-
-## Wi-Fi
-
-**Added**
-* Support disabling 11b rate <sup>(1)</sup>
-* Support configuring ESP-NOW rate <sup>(1)</sup>
-* Added encrypt option for ESPTouch v1 <sup>(1)</sup>
-* Support to sleep for station in disconnected status.<sup>(1)</sup>
-* Support to adjust wake-up ratio for ESP-NOW at disconnected status. <sup>(1)</sup>
-* Added beacon timeout event. <sup>(1)</sup>
-* Support phy calibration data save to nvs for ESP32-S2, ESP32-C3 & ESP32-S3  <sup>(1)</sup>
-* Added ASAP mode support in FTM operations. In FTM Responder mode, added support for up to 3 FTM initiators simultaneously  <sup>(1)</sup>
-* Added support of regdomain database.<sup>(1)</sup>
-* Added SHA384/SHA512 support for internal client. <sup>(1)</sup>
-* Support embedding multiple phy init data bin into app bin. <sup>(1)</sup>
-* Support ESP32-S3 Beta3 Wi-Fi.
-* Added sniffer example FCSFAIL filter
-* Added a new API to destroy default WiFi network interface created with esp_netif_create_default_wifi_...() API.
-* Added station based check for auth frame formation
-* PHY: Added esp_phy component and esp-phy-lib submodule
-* Support configuring 802.11 tx rate
-* Added support of wifi power save for ESP32-S3
-* Added support for MBO certification
-* Added GCMP, GCMP256, GMAC, GMAC256 support for ESP32C3/ESP32S3.
-* Added WPA3 192bit certification support.
-
-**Changed**
-* Modify not to store the default value in NVS<sup>(1)</sup>
-* Keep wakeup state during csa <sup>(1)</sup>
-* Updated libphy.a to V1800 20210413_e7ef680 for ESP32-S2 <sup>(1)</sup>
-* Disable FTM by default for non-FTM examples to save space <sup>(1)</sup>
-* Update ESP32-C3 phy init data <sup>(1)</sup>
-* Cleaned GTK after disconnect <sup>(1)</sup>
-* Updated ESP32-C3 Wi-Fi iperf default config. <sup>(1)</sup>
-* Validate FTM Initiator config parameters and propagate status <sup>(1)</sup>
-* Compile WiFi library with -Os instead of -Og <sup>(1)</sup>
-* Added WPS strict config option <sup>(1)</sup>
-* Optimize Wi-Fi DTIM sleep current
-* Modified connect example to add scan mode config
-* Restructured wpa_supplicant's crypto code.
-* Refactor WiFi ioctl function <sup>(1)</sup>
-* Updated WiFi Enterprise example.
-
-**Fixed**
-* Fixed the issue that connect scan may cause crash <sup>(1)</sup>
-* Fixed potential crash or watchdog during FTM <sup>(1)</sup>
-* Fixed return type of esp_wifi_deinit when Wi-Fi is not stopped <sup>(1)</sup>
-* Fixed an issue that Wi-Fi stack may crash when receive AMSDU length bigger then 3200 <sup>(1)</sup>
-* Fixed miss-overwrite of some PHY registers when Wi-Fi modem sleep is enabled. <sup>(1)</sup>
-* Fixed issue of reason code change from 15 to 200 when provided with wrong password <sup>(1)</sup>
-* Fixed the issue that the parameters obtained from RAM cannot be saved to NVS <sup>(1)</sup>
-* Fixed issue with hidden AP scans after connecting to an AP <sup>(1)</sup>
-* Fixed watchdog issue when receiving action frame <sup>(1)</sup>
-* Fixed issue of reason code change from 15 to 204 when provided with wrong password <sup>(1)</sup>
-* Fixed set_config return value error <sup>(1)</sup>
-* Fixed ampdu age timer memory leak <sup>(1)</sup>
-* Fixed the second distribution network failure of ESPTouch v2 <sup>(1)</sup>
-* Fixed ESPTouch v2 issues <sup>(1)</sup>
-* Update TBTT when rx probe response after beacon timeout <sup>(1)</sup>
-* Current stays low at light sleep when using gpio to wake up. <sup>(1)</sup>
-* Prevent reinstallation of an already in-use group key <sup>(1)</sup>
-* Fixed error in setting channel after WiFi stop <sup>(1)</sup>
-* Fixed Block Ack setup issue in PMF scenario <sup>(1)</sup>
-* Fixed crash when csi is enabled<sup>(1)</sup>
-* Fixed pm state error when csi cb function called <sup>(1)</sup>
-* Fixed amsdu and fragment vulnerabilities. <sup>(1)</sup>
-* Fixed aes_unwrap functionality  <sup>(1)</sup>
-HIGLIGHT_EXAMPLE:
-_Bugfix, not change_
-  * Move unused wifi log to noload section to save binary size <sup>(1)</sup>
-* Fixed RM capability missing for open mode AP<sup>(1)</sup>
-* Fixed memory leak under 11KV macro <sup>(1)</sup>
-* Fixed connection failure caused by sleep <sup>(1)</sup>
-* Fixed nvs init status issue. <sup>(1)</sup>
-* Fixed memory leak in esp_issue_scan error path <sup>(1)</sup>
-* Clear WLAN_FC_STYPE_ACTION bit in esp_register_action_frame <sup>(1)</sup>
-* esp_supplicant: Make esp_rrm_send_neighbor_rep_request return proper error <sup>(1)</sup>
-* wpa_supplicant: Trivial typo fix for setting spp_sup.require <sup>(1)</sup>
-* Fixed PMF issue with broadcast deauths with certain reason codes <sup>(1)</sup>
-* Fixed FTM not working in connected state issue <sup>(1)</sup>
-* Fixed airkiss and esptouch find channel crash issue<sup>(1)</sup>
-* Fixed enterprise connection issue with windows radius server <sup>(1)</sup>
-* Fixed interoperability issue with Windows 2008 radius server. <sup>(1)</sup>
-* PHY: Init phy data to default if invalid in flash partition to avoid bootloops
-* Fixed WiFi data rate status bug after disconnection.
-* Fixed WiFi tx bug in low data rate.
-* WPA_Supplicant] Fix supplicant debug logs errors.
-* Fixed WAPI Key mgmt compatible issue
-* Fixed 9Mbps data rate Tx issue
-* Fixed 80211 tx crash issue
-* Fix ESP32-S3 malloc rom funcs ptr in psram when psram enable.
-HIGHLIGHT_EXAMPLE:
-_Bugfix, not added feature_
-  * Added missing cflag CONFIG_SHA256 for Makefile  
-* wpa_supplicant: Fix wps_free_pins to remove all pins
-* Fixed wifi and bt power domain leakage current in light sleep
-* Fixed Test PHY/RTC functions called when cache is disabled of ESP32
-* Fixed ESP32-C3/ESP32-S3 PHY cause USB no log issue
-* Fixed ESP32-C3/ESP32-S3 RSSI change with bandwidth issue
 
 ## Core System
 
@@ -473,6 +247,239 @@ _Bugfix, not added feature_
 * Disable ESP32-S2 option "Allow .bss segment placed in external memory", this option is currently only supported on ESP32 <sup>(1)</sup>
 * Remove core1 disable cache in cache_utils.c <sup>(1)</sup>
 * Update the esp_efuse_table.csv, remove AUTO CONFIG DIG&RTC DBIAS
+
+
+## ESP-BLE-Mesh
+
+**Added**
+* Added check of Provisioning Random & Confirmation sent/received by Provisioner (CVE-2020-26556 & CVE-2020-26560). 
+
+**Changed**
+* Recommend to use OOB mechanism to exchange Public Key (CVE-2020-26559)
+* Recommend to use randomly generated AuthValue for Static OOB (CVE-2020-26557) 
+* Make Unprovisioned Device Beacon interval configurable
+* Update the SIG recommendations for BLE Mesh CVE issues 
+* Apply the errata E16350 of BLE Mesh from Bluetooth SIG
+
+**Fixed**
+* Fixed using wrong endianness of input/output authentication number for Provisioner 
+* Fixed provisioning input/output authentication number should be at least 1 
+* Fixed filtering error when Provisioner receives heartbeat messages
+
+
+## IEEE 802.15.4
+
+**Added**
+* Added IEEE 802.15.4 component, support IEEE 802.15.4 driver with pre-build library
+* Added Zigbee pending mode and config coordinator API
+
+**Changed**
+* Set IEEE 802.15.4 default PTI to 6
+
+
+## NimBLE
+
+**Changed**
+* Updated custom logging support for NimBLE host.
+HIGHLIGHT_EXAMPLE:
+_Could be change or fix, depends on result_
+* Check stack initialization status before executing stack commands 
+
+**Fixed**
+* Fixed WDT crash observed during security exchanges.
+* Fixed max connection configuration issue in ESP32-C3.
+* Fixed ‘Impersonation in the Passkey Entry Protocol’ Vulnerability. 
+* Fix issue of crash during timer deletion
+
+* Added separate option to enable bonding which fixed forget device iOS issue
+* Blufi on Nimble: Added fix for crash issue on ESP32-C3 during application init.
+
+**Removed**
+* Removed critical log level value from menuconfig.
+
+
+## OpenThread
+
+HIGHLIGHT_EXAMPLE:
+_Bad entry, mixes additions and removals. Must be split into two: one for addition and one for removal_
+* Remove openthread-core-esp32x-config.h, added openthread-core-esp32x-cli-config.h and openthread-core-esp32x-rcp-config.h
+
+**Added**
+* Added OpenThread submodule
+* Added OpenThread porting for ESP32
+* Added OpenThread cli example
+* Added otPlatRadioSetMacKey and otPlatRadioSetMacFrameCounter implementation.
+* Support microsecond timer
+* Added esp_openthread_netif_init() api for initializing the OpenThread lwIP interface.
+* Added OpenThread lwIP interface to the ot_cli example.
+* Enable ot_cli on ESP32H2-Beta chip
+* Enable multicast ping in OpenThread examples by default
+* Added esp_cli_custom_command
+* Added TCP/UDP socket example
+* Added esp_openthread_init esp_openthread_launch_mainloop and esp_openthread_deinit for simplified OpenThread initialization and launch logic.
+* Added the OPENTHREAD_BORDER_ROUTER Kconfig option
+* Added platform UDP and task queue port for the border agent feature
+* Added esp_openthread_border_router_* api
+* Added the esp_otbr example.
+* Introduced a config option to enable/disable extended features in ot_cli example
+* Support ICMPv6 auto config
+* Support SRP service delegation
+* Added ftd.cmake for build FTD and radio.cmake for build RCP
+* Openthread enable ping sender module
+* Support discovery delegate in border router
+* Added iperf example
+* iperf: Support IPV6 address
+* iperf: Added new field len_send_buf, now iperf can set the length of sending buffer
+* OpenThread: Added menuconfig option to enable srp client
+* Enable dynamic logging
+* Added esp_openthread_cli APIs
+* Added history support for OpenThread CLI
+
+**Changed**
+* Updated the OpenThread cli example with the simplified implementation.
+* Porting and border routing features are now provided by prebuilt libraries
+* esp_openthread_netif_glue_init now requires platform config as its parameter
+* Publish _meshcop._mdns service
+* iperf: Merge socket send/recv logic
+* Reduce default log verbosity
+
+**Fixed**
+* Updated OpenThread submodule to contain TCP message leak fix.
+* Fixed wrong uart read return value handling
+
+
+## Wi-Fi
+
+**Added**
+* Support disabling 11b rate <sup>(1)</sup>
+* Support configuring ESP-NOW rate <sup>(1)</sup>
+* Added encrypt option for ESPTouch v1 <sup>(1)</sup>
+* Support to sleep for station in disconnected status.<sup>(1)</sup>
+* Support to adjust wake-up ratio for ESP-NOW at disconnected status. <sup>(1)</sup>
+* Added beacon timeout event. <sup>(1)</sup>
+* Support phy calibration data save to nvs for ESP32-S2, ESP32-C3 & ESP32-S3  <sup>(1)</sup>
+* Added ASAP mode support in FTM operations. In FTM Responder mode, added support for up to 3 FTM initiators simultaneously  <sup>(1)</sup>
+* Added support of regdomain database.<sup>(1)</sup>
+* Added SHA384/SHA512 support for internal client. <sup>(1)</sup>
+* Support embedding multiple phy init data bin into app bin. <sup>(1)</sup>
+* Support ESP32-S3 Beta3 Wi-Fi.
+* Added sniffer example FCSFAIL filter
+* Added a new API to destroy default WiFi network interface created with esp_netif_create_default_wifi_...() API.
+* Added station based check for auth frame formation
+* PHY: Added esp_phy component and esp-phy-lib submodule
+* Support configuring 802.11 tx rate
+* Added support of wifi power save for ESP32-S3
+* Added support for MBO certification
+* Added GCMP, GCMP256, GMAC, GMAC256 support for ESP32C3/ESP32S3.
+* Added WPA3 192bit certification support.
+
+**Changed**
+* Modify not to store the default value in NVS<sup>(1)</sup>
+* Keep wakeup state during csa <sup>(1)</sup>
+* Updated libphy.a to V1800 20210413_e7ef680 for ESP32-S2 <sup>(1)</sup>
+* Disable FTM by default for non-FTM examples to save space <sup>(1)</sup>
+* Update ESP32-C3 phy init data <sup>(1)</sup>
+* Cleaned GTK after disconnect <sup>(1)</sup>
+* Updated ESP32-C3 Wi-Fi iperf default config. <sup>(1)</sup>
+* Validate FTM Initiator config parameters and propagate status <sup>(1)</sup>
+* Compile WiFi library with -Os instead of -Og <sup>(1)</sup>
+* Added WPS strict config option <sup>(1)</sup>
+* Optimize Wi-Fi DTIM sleep current
+* Modified connect example to add scan mode config
+* Restructured wpa_supplicant's crypto code.
+* Refactor WiFi ioctl function <sup>(1)</sup>
+* Updated WiFi Enterprise example.
+
+**Fixed**
+* Fixed the issue that connect scan may cause crash <sup>(1)</sup>
+* Fixed potential crash or watchdog during FTM <sup>(1)</sup>
+* Fixed return type of esp_wifi_deinit when Wi-Fi is not stopped <sup>(1)</sup>
+* Fixed an issue that Wi-Fi stack may crash when receive AMSDU length bigger then 3200 <sup>(1)</sup>
+* Fixed miss-overwrite of some PHY registers when Wi-Fi modem sleep is enabled. <sup>(1)</sup>
+* Fixed issue of reason code change from 15 to 200 when provided with wrong password <sup>(1)</sup>
+* Fixed the issue that the parameters obtained from RAM cannot be saved to NVS <sup>(1)</sup>
+* Fixed issue with hidden AP scans after connecting to an AP <sup>(1)</sup>
+* Fixed watchdog issue when receiving action frame <sup>(1)</sup>
+* Fixed issue of reason code change from 15 to 204 when provided with wrong password <sup>(1)</sup>
+* Fixed set_config return value error <sup>(1)</sup>
+* Fixed ampdu age timer memory leak <sup>(1)</sup>
+* Fixed the second distribution network failure of ESPTouch v2 <sup>(1)</sup>
+* Fixed ESPTouch v2 issues <sup>(1)</sup>
+* Update TBTT when rx probe response after beacon timeout <sup>(1)</sup>
+* Current stays low at light sleep when using gpio to wake up. <sup>(1)</sup>
+* Prevent reinstallation of an already in-use group key <sup>(1)</sup>
+* Fixed error in setting channel after WiFi stop <sup>(1)</sup>
+* Fixed Block Ack setup issue in PMF scenario <sup>(1)</sup>
+* Fixed crash when csi is enabled<sup>(1)</sup>
+* Fixed pm state error when csi cb function called <sup>(1)</sup>
+* Fixed amsdu and fragment vulnerabilities. <sup>(1)</sup>
+* Fixed aes_unwrap functionality  <sup>(1)</sup>
+HIGLIGHT_EXAMPLE:
+_Bugfix, not change_
+  * Move unused wifi log to noload section to save binary size <sup>(1)</sup>
+* Fixed RM capability missing for open mode AP<sup>(1)</sup>
+* Fixed memory leak under 11KV macro <sup>(1)</sup>
+* Fixed connection failure caused by sleep <sup>(1)</sup>
+* Fixed nvs init status issue. <sup>(1)</sup>
+* Fixed memory leak in esp_issue_scan error path <sup>(1)</sup>
+* Clear WLAN_FC_STYPE_ACTION bit in esp_register_action_frame <sup>(1)</sup>
+* esp_supplicant: Make esp_rrm_send_neighbor_rep_request return proper error <sup>(1)</sup>
+* wpa_supplicant: Trivial typo fix for setting spp_sup.require <sup>(1)</sup>
+* Fixed PMF issue with broadcast deauths with certain reason codes <sup>(1)</sup>
+* Fixed FTM not working in connected state issue <sup>(1)</sup>
+* Fixed airkiss and esptouch find channel crash issue<sup>(1)</sup>
+* Fixed enterprise connection issue with windows radius server <sup>(1)</sup>
+* Fixed interoperability issue with Windows 2008 radius server. <sup>(1)</sup>
+* PHY: Init phy data to default if invalid in flash partition to avoid bootloops
+* Fixed WiFi data rate status bug after disconnection.
+* Fixed WiFi tx bug in low data rate.
+* WPA_Supplicant] Fix supplicant debug logs errors.
+* Fixed WAPI Key mgmt compatible issue
+* Fixed 9Mbps data rate Tx issue
+* Fixed 80211 tx crash issue
+* Fix ESP32-S3 malloc rom funcs ptr in psram when psram enable.
+HIGHLIGHT_EXAMPLE:
+_Bugfix, not added feature_
+  * Added missing cflag CONFIG_SHA256 for Makefile  
+* wpa_supplicant: Fix wps_free_pins to remove all pins
+* Fixed wifi and bt power domain leakage current in light sleep
+* Fixed Test PHY/RTC functions called when cache is disabled of ESP32
+* Fixed ESP32-C3/ESP32-S3 PHY cause USB no log issue
+* Fixed ESP32-C3/ESP32-S3 RSSI change with bandwidth issue
+
+
+## Wi-Fi & BT Coexistence
+
+**Added**
+* Support external coexistence when WiFi starts, customers can use it for extending the other communication protocols to the mechanism of time diversion.
+
+**Fixed**
+* Coexistence: Fixed performance issue for extended active scan in coexistence scenario: use the same priority for Rx of AUX_ADV_IND and AUX_SCAN_RSP <sup>(1)</sup>
+
+
+## Wi-Fi Mesh
+
+**Added**
+* Added support for chain topology <sup>(1)</sup>
+* mesh/ps: Added esp_mesh_ps_duty_signaling to accelerate the broadcast of new network duty. <sup>(1)</sup>
+* mesh/recv: Added option MESH_OPT_RECV_RATE (esp32-only). <sup>(1)</sup>
+* mesh: Added esp_mesh_send_block_time to set blocking time of esp_mesh_send <sup>(1)</sup>
+* Added non mesh connections access <sup>(1)</sup>
+
+**Changed**
+* mesh/rssi: Average the router_rssi. <sup>(1)</sup>
+* mesh/ps: Close NWK-DUTY-MASTER process.<sup>(1)</sup>
+* mesh/root: Change the condition of s_extra_scan_attempts <sup>(1)</sup>
+* mesh/ps: Modify beacon interval to 300ms when ps is enabled. <sup>(1)</sup>
+* esp_mesh_send is blocked in nodes(layer>=3), when a FIXED-ROOT root is duty master <sup>(1)</sup>
+
+**Fixed**
+* mesh/c3: Fixed mesh deinit blocking issue <sup>(1)</sup>
+* mesh/c3: Fixed root has no eb for deauth frames during the networking <sup>(1)</sup>
+
+**Removed**
+* mesh/ps: Remove ps duty info from the ADD announcement packets.<sup>(1)</sup>
+* mesh/ps: Remove the support of MESH_PS_NETWORK_DUTY_APPLIED_UPLINK. <sup>(1)</sup>
 
 
 # Backports

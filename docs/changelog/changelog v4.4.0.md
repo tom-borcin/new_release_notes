@@ -5,6 +5,8 @@ _Areas contain Added, Changed, Deprecated, Fixed and Removed lists of features_
 _Areas are alphabetically sorted_
 
 
+Technical Reference Manual: {link}
+
 ## Bluedroid
 
 **Added**
