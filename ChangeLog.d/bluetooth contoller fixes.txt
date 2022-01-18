@@ -1,0 +1,6 @@
+## Bluetooth Controller
+
+**Fixed**
+* Fixed bluetooth controller task watchdog in Wi-Fi test
+* Fixed live lock issue in Bluetooth interrupt immediately, to make sure interrupt response speed
+* Fixed the assert in checking hardware sleep state during wake-up

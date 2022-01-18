@@ -1,0 +1,8 @@
+## OpenThread
+
+**Added**
+* Added OpenThread submodule
+* Added OpenThread porting for ESP32
+
+**Changed**
+* Reduce default log verbosity

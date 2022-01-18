@@ -1,0 +1,4 @@
+## Core System
+
+**Added**
+* Added new startup_time example
