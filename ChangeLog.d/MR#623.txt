@@ -1,0 +1,2 @@
+## Tools
+* Added mypy pre-commit hook for type annotation checking

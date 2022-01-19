@@ -1,0 +1,2 @@
+## OpenThread
+* Reduce default log verbosity

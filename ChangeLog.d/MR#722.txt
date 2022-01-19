@@ -1,0 +1,2 @@
+## LWIP
+* Added configuration for DHCP vendor class identifier option

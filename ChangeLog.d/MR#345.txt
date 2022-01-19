@@ -1,0 +1,2 @@
+## Security
+* esp_hw_support: Added Digital Signature functionality for ESP32-S3

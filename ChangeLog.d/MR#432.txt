@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Flash: Fix esp_flash_erase_region function over-erasing when requested size is 0 (#7314, #7272).

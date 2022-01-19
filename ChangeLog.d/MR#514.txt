@@ -1,0 +1,2 @@
+## Core System
+* log: Added Linux implementation of normal log functions

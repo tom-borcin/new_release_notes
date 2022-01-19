@@ -1,0 +1,2 @@
+## ESP-MQTT
+* Fixed build issue if certificate bundle or websocket transport disabled <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Touch sensor: Fixed the issue measure times is set to wrong value during deep sleep on ESP32. (#6895)

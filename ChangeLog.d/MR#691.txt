@@ -1,0 +1,2 @@
+## LWIP
+* Fixed a thread safe issue which leads to assert in LWIP <sup>(1)</sup>

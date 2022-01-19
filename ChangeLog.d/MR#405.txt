@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2C: Added a way to select source clock in slave mode

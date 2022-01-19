@@ -1,0 +1,2 @@
+## Examples
+* pppos_client: Fixed potential data race condition using only UART data event for pattern detection (#7176)

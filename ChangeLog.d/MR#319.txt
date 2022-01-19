@@ -1,0 +1,2 @@
+## Security
+* Digital Signature: Fixed invalidating Digital Signature key in HMAC peripheral if assertions are disabled <sup>(1)</sup>

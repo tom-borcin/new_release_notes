@@ -1,0 +1,2 @@
+## Power Management
+* Fixed the issue of deep sleep wakeup failure caused by using light sleep and deep sleep at the same time

@@ -1,0 +1,2 @@
+## Ethernet
+* Increased LAN8720 ETH-PHY reset assertion time

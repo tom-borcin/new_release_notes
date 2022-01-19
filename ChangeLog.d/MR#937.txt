@@ -1,0 +1,2 @@
+## Documentation
+* Fixed OpenOCD configuration files names for ESP32-S3

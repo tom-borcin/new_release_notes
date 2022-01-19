@@ -1,0 +1,2 @@
+## Storage
+* vfs/uart: Fixed memory leak identified by cppcheck<sup>(1)</sup>

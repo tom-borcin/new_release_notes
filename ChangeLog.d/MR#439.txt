@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* TWAI: Added TWAI_ALERT_RX_DATA that alerts on successful reception of a message

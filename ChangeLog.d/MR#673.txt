@@ -1,0 +1,2 @@
+## Power Management
+* Fixed the xtensa series soc SysTick frequency error when dfs is enabled <sup>(1)</sup>

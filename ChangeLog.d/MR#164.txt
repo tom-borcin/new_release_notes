@@ -1,0 +1,2 @@
+## NimBLE
+* Added fix to handle 0 length ATT write request

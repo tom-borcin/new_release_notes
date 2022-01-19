@@ -1,0 +1,2 @@
+## Core System
+* Fixed possible issues with duplicate definitions of likely/unlikely macros (#6445)

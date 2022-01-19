@@ -1,0 +1,2 @@
+## IEEE 802.15.4
+* Added Zigbee pending mode and config coordinator API

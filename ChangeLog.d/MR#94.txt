@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Fixed the issue HCI_Read_Clock failed read local Bluetooth Clock

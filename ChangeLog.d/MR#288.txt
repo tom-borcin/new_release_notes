@@ -1,0 +1,2 @@
+## Wi-Fi
+* PMF: allow keyindex in big endian format to workaround faulty APs

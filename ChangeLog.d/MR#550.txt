@@ -1,0 +1,2 @@
+## Core System
+* SOC: Moved peripheral linker scripts to soc component

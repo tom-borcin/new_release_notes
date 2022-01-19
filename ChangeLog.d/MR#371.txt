@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: Fixed the garbage output when resetting the peripheral on ESP32-C3.

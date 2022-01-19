@@ -1,0 +1,2 @@
+## Build System
+* Fixed CMake missing function error when limiting the component list to not include esptool_py (#6670)

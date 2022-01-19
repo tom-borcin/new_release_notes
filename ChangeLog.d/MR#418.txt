@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* MCPWM: Support configuring clock resolution for MCPWM group and timer

@@ -1,0 +1,2 @@
+## mDNS
+* Added MDNS_STRICT_MODE config option to work with strict resolvers <sup>(1)</sup>

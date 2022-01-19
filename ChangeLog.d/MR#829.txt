@@ -1,0 +1,2 @@
+## Storage
+* SPIFFS: add spiffsgen.py options for ESP8266 compatibility: --aligned-obj-ix-tables, --no-magic-len, --no-magic

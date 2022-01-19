@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: Added missing critical section wrappers around rx_buffered_len (#6396)

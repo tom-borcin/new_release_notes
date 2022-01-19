@@ -1,0 +1,2 @@
+## mbedTLS
+* esp_crt_bundle: Updated the cacrt_all.pem file

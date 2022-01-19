@@ -1,0 +1,2 @@
+## Core System
+* Fixed the internal devices/registers access corruption due to concurrent read/write by a spinlock. <sup>(1)</sup>

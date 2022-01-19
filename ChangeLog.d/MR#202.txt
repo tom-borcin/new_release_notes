@@ -1,0 +1,2 @@
+## Wi-Fi
+* Support configuring ESP-NOW rate <sup>(1)</sup>

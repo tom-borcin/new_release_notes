@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed memory leak under 11KV macro <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed memory leak in WPA3 connection

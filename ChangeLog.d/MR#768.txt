@@ -1,0 +1,2 @@
+## HTTP Client
+* Fixed HEAD request will affect the all next HTTP requests unless we close the HTTP request

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* GPIO: Fixed a typo on register struct that results in interrupt cannot be triggered on ESP32 core 1

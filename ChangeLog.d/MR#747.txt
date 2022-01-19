@@ -1,0 +1,2 @@
+## OTA
+* esp_https_ota: Added support to send post request if body is set

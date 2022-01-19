@@ -1,0 +1,2 @@
+## Wi-Fi
+* Support to adjust wake-up ratio for ESP-NOW at disconnected status. <sup>(1)</sup>

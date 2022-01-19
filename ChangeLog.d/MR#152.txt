@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed blufi encryption interrupted unexpectedly lead to unable encryption again

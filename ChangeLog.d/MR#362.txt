@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: Fixed a race condition and wrong interrupt flag setting

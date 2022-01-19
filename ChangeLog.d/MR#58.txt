@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Bluetooth Low Energy
+* Fixed the bug of modem sleep which may lead to the crash issue "assert(-218959118,0)"

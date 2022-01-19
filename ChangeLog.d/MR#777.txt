@@ -1,0 +1,2 @@
+## HTTP Server
+* Added helper APIs to get cookie value in request. (#7273)

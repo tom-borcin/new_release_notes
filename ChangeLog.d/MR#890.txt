@@ -1,0 +1,2 @@
+## Examples
+* PCNT: Install PCNT interrupt for only once in the rotary encoder example. (#6889)

@@ -1,0 +1,2 @@
+## Examples
+* HTTP Server: Added Captive Portal Example

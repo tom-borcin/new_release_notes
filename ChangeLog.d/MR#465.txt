@@ -1,0 +1,2 @@
+## Core System
+* Added option to enable Undefined Behavior Sanitizer (UBSAN)

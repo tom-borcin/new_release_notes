@@ -1,0 +1,2 @@
+## Debugging
+* Gcov: Added ESP32-S2 support

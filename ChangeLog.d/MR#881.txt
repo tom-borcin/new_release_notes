@@ -1,0 +1,2 @@
+## Examples
+* GPIO: Fixed the issue that config struct is not properly initialized

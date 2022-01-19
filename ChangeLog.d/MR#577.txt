@@ -1,0 +1,2 @@
+## FreeRTOS
+* esp_ringbuf: Fixed a bug where the Rx and Tx semaphore release sequence was incorrect in xRingbufferSend and xRingbufferSendFromISR functions.

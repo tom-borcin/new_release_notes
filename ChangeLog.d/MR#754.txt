@@ -1,0 +1,2 @@
+## HTTP Client
+* Fixed esp_http_client_read with OpenSSL server for file size aligned to 289 bytes <sup>(1)</sup>

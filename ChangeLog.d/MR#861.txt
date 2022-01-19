@@ -1,0 +1,2 @@
+## Examples
+* coap_client_example: Updated the target domain URL

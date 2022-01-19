@@ -1,0 +1,2 @@
+## Build System
+* Fixed CMake build system to correctly pass the -Wwrite-string compiler flag if configured <sup>(1)</sup>

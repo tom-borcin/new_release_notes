@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fixed: Power down bluetooth module when deinit

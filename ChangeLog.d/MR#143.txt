@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Added UHCI example to ESP32-C3, used for Bluetooth Controller only mode through HCI UART transport

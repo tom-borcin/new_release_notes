@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed BLE 5.0 pairing failed when using random address

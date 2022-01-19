@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Slave: Remove Slave TX/RX set bitlen not effective for ESP32-S2/ESP32-C3

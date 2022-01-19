@@ -1,0 +1,2 @@
+## HTTP Client
+* Fixed disable CONFIG_ESP_HTTP_CLIENT_ENABLE_HTTPS will build error

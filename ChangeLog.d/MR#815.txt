@@ -1,0 +1,2 @@
+## TCP Transport
+* Added TCP transport common connection errors (espressif/esp-mqtt#182)

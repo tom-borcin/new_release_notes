@@ -1,0 +1,2 @@
+## Tools
+* Support external Esptool wrappers by defining ESPTOOL_WRAPPER environment variable (#6879)

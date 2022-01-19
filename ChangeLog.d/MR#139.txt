@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed data length update failed

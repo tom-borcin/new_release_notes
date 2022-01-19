@@ -1,0 +1,2 @@
+## Core System
+* RISC-V: Fixed usage of mcause within the interrupt handler

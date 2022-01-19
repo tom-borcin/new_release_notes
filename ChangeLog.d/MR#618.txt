@@ -1,0 +1,2 @@
+## Tools
+* Deprecated unsupported old Pythons (<=3.5).

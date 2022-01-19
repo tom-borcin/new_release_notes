@@ -1,0 +1,2 @@
+## Examples
+* wave_gen: Remove the ESP_INTR_FLAG_IRAM flag when register the ISR

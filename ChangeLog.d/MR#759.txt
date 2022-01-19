@@ -1,0 +1,2 @@
+## HTTP Client
+* Added config option for HTTP digest authentication

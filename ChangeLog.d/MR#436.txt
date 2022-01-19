@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Temperature Sensor: Now driver APIs will check to make sure the calling sequence is correct.

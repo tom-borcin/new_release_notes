@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Touch_sensor: Fixed the touch measurement interval becomes longer after wake-up from sleep on ESP32-S2

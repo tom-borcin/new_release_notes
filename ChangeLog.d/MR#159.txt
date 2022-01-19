@@ -1,0 +1,2 @@
+## NimBLE
+* Check stack initialization status before executing stack commands

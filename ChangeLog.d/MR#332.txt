@@ -1,0 +1,2 @@
+## Security
+* AES: Removed potential unaligned access to buffers in AES HAL/LL which could be a problem for certain cache mappings to external PSRAM on S2 and later chips. <sup>(1)</sup>

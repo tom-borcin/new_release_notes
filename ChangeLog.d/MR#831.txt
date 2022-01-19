@@ -1,0 +1,2 @@
+## Storage
+* NVS: Fix public API parameter checks, init checks, fix documentation

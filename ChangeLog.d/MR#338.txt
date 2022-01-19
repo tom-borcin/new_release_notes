@@ -1,0 +1,2 @@
+## Security
+* flash encryption in app: Added a check that app is run under correct FE configuration

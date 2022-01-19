@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed aes_unwrap functionality <sup>(1)</sup>

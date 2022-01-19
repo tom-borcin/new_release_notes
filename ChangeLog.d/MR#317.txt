@@ -1,0 +1,2 @@
+## Ethernet
+* Fixed missing loopback function assignment for KSZ8081

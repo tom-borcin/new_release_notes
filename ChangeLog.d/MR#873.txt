@@ -1,0 +1,2 @@
+## Examples
+* Added support of ESP32-S3 chip in Ethernet related examples

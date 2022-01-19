@@ -1,0 +1,2 @@
+## Core System
+* ROM: Added common API for tjpgd library in the esp_rom

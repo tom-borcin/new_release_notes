@@ -1,0 +1,2 @@
+## LWIP
+* Added config option LWIP_NETIF_STATUS_CALLBACK for network interface status callback.

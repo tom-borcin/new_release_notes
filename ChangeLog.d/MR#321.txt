@@ -1,0 +1,2 @@
+## Security
+* secure_boot_v2: Supported SB_V2 for ESP32-C3 ECO3 <sup>(1)</sup>

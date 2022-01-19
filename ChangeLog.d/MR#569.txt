@@ -1,0 +1,2 @@
+## FreeRTOS
+* Fixed prvTaskIsTaskSuspended() where a task pending ready can be mistaken as suspended

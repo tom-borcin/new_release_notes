@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Updated connection state when getting connection cancel complete

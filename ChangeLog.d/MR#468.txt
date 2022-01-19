@@ -1,0 +1,2 @@
+## Core System
+* Remove core1 disable cache in cache_utils.c <sup>(1)</sup>

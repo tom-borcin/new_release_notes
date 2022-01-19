@@ -1,0 +1,2 @@
+## LWIP
+* Added support for silent assert option.

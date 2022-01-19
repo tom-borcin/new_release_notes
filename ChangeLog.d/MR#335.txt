@@ -1,0 +1,2 @@
+## Security
+* HMAC: Added Downstream JTAG enable mode for ESP32-C3 and ESP32-S3 <sup>(1)</sup>

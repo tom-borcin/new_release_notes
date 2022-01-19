@@ -1,0 +1,2 @@
+## Security
+* Bootloader/ESP32-S3: Enabled secure boot V2 for ESP32-S3

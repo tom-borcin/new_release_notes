@@ -1,0 +1,2 @@
+## Core System
+* Pthread thread-local destructor functions are now called with the ordering required by the specification (#6643) <sup>(1)</sup>

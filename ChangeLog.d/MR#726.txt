@@ -1,0 +1,2 @@
+## mDNS
+* Fixed IP header TTL to meet the mdns spec <sup>(1)</sup>

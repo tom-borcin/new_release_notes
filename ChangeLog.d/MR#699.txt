@@ -1,0 +1,2 @@
+## LWIP
+* dhcpserver: Added extern "C" directive in dhcpserver head file. <sup>(1)</sup>

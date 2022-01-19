@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Bluetooth Low Energy
+* Fixed missing the sleep time

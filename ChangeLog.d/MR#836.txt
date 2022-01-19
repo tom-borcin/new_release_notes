@@ -1,0 +1,2 @@
+## External Libraries
+* coap: Fixed few missing NULL checks in coap_mbedtls.c

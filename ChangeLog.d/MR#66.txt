@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Bluetooth Low Energy
+* Fixed data length update rejected when controller is updating data length

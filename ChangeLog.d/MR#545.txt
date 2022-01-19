@@ -1,0 +1,2 @@
+## Core System
+* Fixed compiler warning with silent panic option

@@ -1,0 +1,2 @@
+## Core System
+* Console: Typo fix in cmd_nvs.c

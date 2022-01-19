@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI: Fixed wrong target register for interrupt disable on ESP32-C3

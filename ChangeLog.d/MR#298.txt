@@ -1,0 +1,2 @@
+## Ethernet
+* Fixed bug in w5500-mac which could corrupt memory or cause infinite looping while reading registers (#6579, #6233) <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: Fixed a typo in the error message of invalid rx_thresh_xoff

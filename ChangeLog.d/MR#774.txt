@@ -1,0 +1,2 @@
+## HTTP Server
+* Redesigned httpd_sess_* function to speed up the server (#6313)

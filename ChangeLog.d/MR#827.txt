@@ -1,0 +1,2 @@
+## Storage
+* Partition tables: Added ESP_PARTITION_TYPE_ANY for iterating over all partition types (#6586)

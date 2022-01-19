@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* USB: Removed some non-existing registers from register structure

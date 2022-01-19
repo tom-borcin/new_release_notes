@@ -1,0 +1,2 @@
+## Core System
+* digital & rtc dbias of different chip may set to a different value according to pvt scan by ate; <sup>(1)</sup>

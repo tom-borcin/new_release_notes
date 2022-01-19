@@ -1,0 +1,2 @@
+## Storage
+* vfs: Added esp_vfs_unregister_with_id and esp_vfs_register_fd_with_local_fd for better control over registered vfs and fds.

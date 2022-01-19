@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Timer Group: Fixed the issue that timer group can't re-alarm if auto-reload is disabled (https://github.com/espressif/esp-idf/issues/8095)

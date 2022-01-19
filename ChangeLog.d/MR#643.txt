@@ -1,0 +1,2 @@
+## Tools
+* "_" in idf.py commands are renamed to "-". Old subcommands are still supported with deprecation warnings.

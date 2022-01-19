@@ -1,0 +1,2 @@
+## OpenThread
+* Updated the OpenThread cli example with the simplified implementation.

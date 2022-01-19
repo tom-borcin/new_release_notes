@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI: Support 8-line (octal) spi master driver

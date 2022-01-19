@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Fixed coredump header inclusion in C++ (#6585) <sup>(1)</sup>

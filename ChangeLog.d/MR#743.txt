@@ -1,0 +1,2 @@
+## OTA
+* otatool: Fixed read_ota_partition cmd, required output arg (#6559) <sup>(1)</sup>

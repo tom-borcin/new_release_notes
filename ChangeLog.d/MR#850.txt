@@ -1,0 +1,2 @@
+## Examples
+* Added basic authenticated example to HTTP server (#5646)

@@ -1,0 +1,2 @@
+## Ethernet
+* Added support to use multiple Ethernet modules at a time

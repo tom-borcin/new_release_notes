@@ -1,0 +1,2 @@
+## Tools
+* PowerShell export script: Define $IsWindows if not defined (https://github.com/espressif/esp-idf/pull/7858 fixes https://github.com/espressif/esp-idf/issues/7820)

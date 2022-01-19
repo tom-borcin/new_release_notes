@@ -1,0 +1,2 @@
+## ESP-BLE-Mesh
+* Recommend to use randomly generated AuthValue for Static OOB (CVE-2020-26557)

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed connection failure caused by sleep <sup>(1)</sup>

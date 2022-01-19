@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* MCPWM: Support MCPWM timer sync

@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Fixed crash in Bluetooth when esp_restart

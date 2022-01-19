@@ -1,0 +1,2 @@
+## Documentation
+* SDMMC host: Updated the description of eMMC speed and line modes.

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* hal/ESP32-C3: Fixed SBA access from debugger in WIFI mode

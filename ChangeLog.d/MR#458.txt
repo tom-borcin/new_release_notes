@@ -1,0 +1,2 @@
+## Core System
+* Disable ESP32-S2 option "Allow .bss segment placed in external memory", this option is currently only supported on ESP32 <sup>(1)</sup>

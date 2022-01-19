@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* RMT: Support hardware implementation of automatically stopping output at end of loop: rmt_set_tx_loop_autostop()

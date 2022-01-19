@@ -1,0 +1,2 @@
+## Power Management
+* Disable brownout detector before entering deep sleep on ESP32-S2 (#6179) <sup>(1)</sup>

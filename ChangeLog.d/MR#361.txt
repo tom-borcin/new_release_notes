@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* USB_SERIAL_JTAG: Fixed the bug that cannot write with usb_jtag

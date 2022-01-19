@@ -1,0 +1,2 @@
+## LWIP
+* esp_netif: Fixed failing ppp_set_auth() due to wrong argument check (#7047) <sup>(1)</sup>

@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed assert failed when interrupt level disable

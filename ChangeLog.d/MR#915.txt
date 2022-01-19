@@ -1,0 +1,2 @@
+## Documentation
+* Added ESP32-DevKitC, ESP32-S2-Saola-1 and ESP32-C3-DevKitM-1 boards pin layout images

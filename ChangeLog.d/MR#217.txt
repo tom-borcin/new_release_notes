@@ -1,0 +1,2 @@
+## Wi-Fi
+* Keep wakeup state during csa <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## mDNS
+* Fixed non-strict mdns query resolution if instance/hostname wasn't set <sup>(1)</sup>

@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* SPP：Added API esp_spp_stop_srv_scn to stop a specific server

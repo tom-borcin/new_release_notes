@@ -1,0 +1,2 @@
+## Examples
+* SPI: Added an example for spi slave hd segment mode<sup>(1)</sup>

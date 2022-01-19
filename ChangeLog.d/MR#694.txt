@@ -1,0 +1,2 @@
+## LWIP
+* Added CONFIG_LWIP_ICMP to option ICMP. <sup>(1)</sup>

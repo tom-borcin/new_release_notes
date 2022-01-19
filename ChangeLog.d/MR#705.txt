@@ -1,0 +1,2 @@
+## LWIP
+* Added config option LWIP_IPV6_FORWARD for IPv6 packet forwarding.

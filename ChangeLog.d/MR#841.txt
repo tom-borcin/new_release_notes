@@ -1,0 +1,2 @@
+## External Libraries
+* tinycbor: update to latest upstream master (as of April 19th 2021)

@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Modify parameter description for esp_ble_gattc_open()

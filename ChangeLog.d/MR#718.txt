@@ -1,0 +1,2 @@
+## LWIP
+* Added support for DHCPv6 stateless address configuration

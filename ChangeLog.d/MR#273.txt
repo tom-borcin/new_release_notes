@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added missing cflag CONFIG_SHA256 for Makefile

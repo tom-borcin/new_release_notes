@@ -1,0 +1,2 @@
+## FreeRTOS
+* Added portTRY_ENTER_CRITICAL() to allow for timeouts when entering a critical section

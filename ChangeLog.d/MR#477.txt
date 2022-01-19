@@ -1,0 +1,2 @@
+## Core System
+* CXX: Fixed I2C master timeout

@@ -1,0 +1,2 @@
+## Documentation
+* Documented KEEP, ALIGN, SORT flags and surrounding symbol for linker script rules

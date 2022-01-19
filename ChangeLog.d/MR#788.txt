@@ -1,0 +1,2 @@
+## mbedTLS
+* Fixed mbedtls_ssl_send_alert_message crash due to ssl->out_iv is NULL. <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* MCPWM: Fixed implicit conversion in LL function (https://github.com/espressif/esp-idf/issues/8066)

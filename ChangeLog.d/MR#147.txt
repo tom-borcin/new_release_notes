@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Added hci command to set coexistence status

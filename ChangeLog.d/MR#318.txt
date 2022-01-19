@@ -1,0 +1,2 @@
+## Ethernet
+* Fixed ESP32 EMAC driver insufficient TX buffer size issue after Ethernet stop/start sequence

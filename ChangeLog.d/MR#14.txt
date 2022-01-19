@@ -1,0 +1,2 @@
+## OpenThread
+* Fixed wrong uart read return value handling

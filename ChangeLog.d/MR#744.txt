@@ -1,0 +1,2 @@
+## OTA
+* otatool: Fixed a crash when imported as external python lib <sup>(1)</sup>

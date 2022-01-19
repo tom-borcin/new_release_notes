@@ -1,0 +1,2 @@
+## Core System
+* CXX: Added virtual destructor in I2C class <sup>(1)</sup>

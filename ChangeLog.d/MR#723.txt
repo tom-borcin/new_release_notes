@@ -1,0 +1,2 @@
+## LWIP
+* Updated LWIP_DHCP_OPTIONS_LEN default value when LWIP_DHCP_DISABLE_VENDOR_CLASS_ID disabled

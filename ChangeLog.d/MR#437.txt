@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Timer Group, PCNT: Updated register and LL headers to latest version for ESP32-S2 and C3

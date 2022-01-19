@@ -1,0 +1,2 @@
+## FreeRTOS
+* Fixed invalid taskEXIT_CRITICAL

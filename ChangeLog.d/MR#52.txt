@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Created repository for BLE library files of ESP32-C3 and ESP32-S3, as a new submodule of ESP-IDF. Modify directory layout to better support multiple chips.

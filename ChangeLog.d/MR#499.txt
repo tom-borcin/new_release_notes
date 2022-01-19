@@ -1,0 +1,2 @@
+## Core System
+* Added config item to select core affinity for main task under SMP (#6627)

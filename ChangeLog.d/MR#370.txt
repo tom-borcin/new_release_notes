@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI: Added support for keeping CS (chip select) active after a transaction.

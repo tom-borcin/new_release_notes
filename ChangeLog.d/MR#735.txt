@@ -1,0 +1,2 @@
+## mDNS
+* Added support for simple mDNS responders (#7124)

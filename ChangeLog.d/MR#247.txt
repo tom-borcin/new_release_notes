@@ -1,0 +1,2 @@
+## Wi-Fi
+* wpa_supplicant: Trivial typo fix for setting spp_sup.require <sup>(1)</sup>

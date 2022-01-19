@@ -1,0 +1,2 @@
+## Core System
+* SOC: Added dummy bytes to end of flash.text to prevent errors with CPU prefetching instructions past the end <sup>(1)</sup>

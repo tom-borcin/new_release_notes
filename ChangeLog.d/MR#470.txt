@@ -1,0 +1,2 @@
+## Core System
+* Fixed possible deadlock when using pthread_join() and log level set to Debug or higher <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## OpenThread
+* Added esp_openthread_netif_init() api for initializing the OpenThread lwIP interface.

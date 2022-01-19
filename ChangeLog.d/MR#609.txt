@@ -1,0 +1,2 @@
+## newlib libc
+* Added missing C++ header guards to <sys/dirent.h> <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## FreeRTOS
+* Fixed race condition where it was possible for vTaskDelete() to delete a blocked task without the task being cleaned up <sup>(1)</sup>

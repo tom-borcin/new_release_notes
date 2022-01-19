@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed Block Ack setup issue in PMF scenario <sup>(1)</sup>

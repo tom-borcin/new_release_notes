@@ -1,0 +1,2 @@
+## Documentation
+* pthread: Updated documentation about reader-writer-lock implementation

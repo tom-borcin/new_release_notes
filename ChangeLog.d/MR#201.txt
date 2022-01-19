@@ -1,0 +1,2 @@
+## Wi-Fi
+* Support disabling 11b rate <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Update ESP32-C3 phy init data <sup>(1)</sup>

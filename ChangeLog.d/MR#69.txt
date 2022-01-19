@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Bluetooth Low Energy
+* Fixed that when EXT CRYS is configured but not detected, light sleep is still allowed to be used.

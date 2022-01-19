@@ -1,0 +1,2 @@
+## Ethernet
+* Speed up Ethernet start up process <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Security
+* efuse: Added flash virtual mode to keep efuses after reboots. SB and FE can be run without permanent burns of efuses.

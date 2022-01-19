@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* USB: Added support for Communication Device Class (CDC) for USB host

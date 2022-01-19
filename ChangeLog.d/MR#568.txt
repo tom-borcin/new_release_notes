@@ -1,0 +1,2 @@
+## FreeRTOS
+* Introduced configNUM_CORES to be used instead of portNUM_OF_PROCESSORS to align with upstream SMP implementation

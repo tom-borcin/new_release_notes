@@ -1,0 +1,2 @@
+## LWIP
+* Added support for LWIP_TCPIP_CORE_LOCKING config option.

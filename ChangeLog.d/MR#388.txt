@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* GPIO: Fixed issue that gpio cannot hold during deep-sleep on ESP32-C3 (#7455)

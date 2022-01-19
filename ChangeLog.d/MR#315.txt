@@ -1,0 +1,2 @@
+## Ethernet
+* Fixed KSZ8851SNL to enable RX multicast in MAC filter

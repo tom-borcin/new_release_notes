@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: IOMUX is now used whenever possible when configuring pins, so that UART on IOMUX pins can be used for wakeup

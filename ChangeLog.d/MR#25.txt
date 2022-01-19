@@ -1,0 +1,2 @@
+## OpenThread
+* Introduced a config option to enable/disable extended features in ot_cli example

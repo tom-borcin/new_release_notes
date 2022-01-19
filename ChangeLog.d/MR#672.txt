@@ -1,0 +1,2 @@
+## Power Management
+* Fixed ESP32-S2 will not be awoken when deep-sleep time is set to 0 <sup>(1)</sup>

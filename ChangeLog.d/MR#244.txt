@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed memory leak in esp_issue_scan error path <sup>(1)</sup>

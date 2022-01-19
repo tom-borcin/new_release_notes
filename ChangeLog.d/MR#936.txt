@@ -1,0 +1,2 @@
+## Documentation
+* Updated flash encryption docs with 512 bit key related information

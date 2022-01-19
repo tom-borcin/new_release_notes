@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* Fixed the timer collision in function bta_sys_start_timer() used by role switch.

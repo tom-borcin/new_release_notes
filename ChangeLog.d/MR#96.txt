@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* SPP: Fixed a crash caused by pairing cancel

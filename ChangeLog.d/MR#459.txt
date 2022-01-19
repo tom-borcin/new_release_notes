@@ -1,0 +1,2 @@
+## Core System
+* Fixed delay between interrupt request and interrupt trigger <sup>(1)</sup>

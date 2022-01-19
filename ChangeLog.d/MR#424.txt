@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SDIO Slave: Fix ignored callback return value in sdio_ringbuf_send (#6768)

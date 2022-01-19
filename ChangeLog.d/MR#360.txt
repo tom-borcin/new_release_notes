@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2C: Delete i2c cmd_mux semaphore more cleanly (#6848)

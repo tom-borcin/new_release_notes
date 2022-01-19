@@ -1,0 +1,2 @@
+## Security
+* esp_hw_support: appropriate waiting time in esp_random() for ESP32-S3

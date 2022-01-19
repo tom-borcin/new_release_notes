@@ -1,0 +1,2 @@
+## NimBLE
+* Blufi on Nimble: Added fix for crash issue on ESP32-C3 during application init.

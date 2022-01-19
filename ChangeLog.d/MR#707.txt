@@ -1,0 +1,2 @@
+## LWIP
+* Added config option LWIP_HOOK_ND6_GET_GW for hooking the IPv6 gateway decistion logic.

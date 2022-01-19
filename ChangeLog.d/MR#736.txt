@@ -1,0 +1,2 @@
+## mDNS
+* Added asynchronous query API

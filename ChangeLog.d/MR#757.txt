@@ -1,0 +1,2 @@
+## HTTP Client
+* Fixed wrong handling of an EAGAIN case.<sup>(1)</sup>

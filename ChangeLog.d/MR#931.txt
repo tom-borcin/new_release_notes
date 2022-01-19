@@ -1,0 +1,2 @@
+## Documentation
+* Updated the TOC of ESP-IDF API Reference to make it consistent with the real section title

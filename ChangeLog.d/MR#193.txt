@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* esp_mesh_send is blocked in nodes(layer>=3), when a FIXED-ROOT root is duty master <sup>(1)</sup>

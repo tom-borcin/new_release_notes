@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Fixed rs485 rts de-assert fail when tx delayed (#6728)

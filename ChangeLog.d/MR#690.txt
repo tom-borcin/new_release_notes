@@ -1,0 +1,2 @@
+## LWIP
+* Fixed LWIP_DEBUG define to include debug logs only if enabled. <sup>(1)</sup>

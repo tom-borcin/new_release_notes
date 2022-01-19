@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed crash when csi is enabled<sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Examples
+* Added sdkconfig.defaults.esp32s3 for ESP-BLE-Mesh examples <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Core System
+* heap: Fix a bug in the TLSF allocator returning a chunk of memory smaller than requested

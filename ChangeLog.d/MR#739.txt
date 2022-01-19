@@ -1,0 +1,2 @@
+## mDNS
+* Added option MDNS_MULTIPLE_INSTANCE which allows mdns_service_add to add multiple instances with same service type.

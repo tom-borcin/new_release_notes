@@ -1,0 +1,2 @@
+## Documentation
+* Corrected UART default pin names and provided more information about ESP-Prog board

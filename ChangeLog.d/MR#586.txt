@@ -1,0 +1,2 @@
+## Build System
+* Fixed CMake warning when compiling mbedtls component <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Delete the option: BLE ADV priority high

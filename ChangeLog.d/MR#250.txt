@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed airkiss and esptouch find channel crash issue<sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: Fix issue to free a registered custom ISR (https://github.com/espressif/esp-idf/issues/8150)

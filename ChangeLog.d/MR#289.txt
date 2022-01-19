@@ -1,0 +1,2 @@
+## Wi-Fi
+* Updated miswritten and abbreviated words and syntax errors for initialize WiFi section in esp_wifi.h header file

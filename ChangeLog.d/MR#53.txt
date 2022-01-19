@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fixed interrupt watchdog timeout during controller disable procedure for ESP32-S3/ESP32-C3

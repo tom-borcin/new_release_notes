@@ -1,0 +1,2 @@
+## Core System
+* Watchdog Timers: Fixed literal overflow issue when calculating Task WDT timeout (#6648)

@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/ps: Added esp_mesh_ps_duty_signaling to accelerate the broadcast of new network duty. <sup>(1)</sup>

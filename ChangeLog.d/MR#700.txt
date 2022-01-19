@@ -1,0 +1,2 @@
+## LWIP
+* Added support for IPv4 only configuration (LWIP_IPV6 macro to strip IPv6 functionality)

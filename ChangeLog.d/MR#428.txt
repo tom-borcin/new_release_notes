@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Flash: Support octal flash in esp_flash driver (currently only MXIC is supported).

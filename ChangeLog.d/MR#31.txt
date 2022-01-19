@@ -1,0 +1,2 @@
+## OpenThread
+* Openthread enable ping sender module

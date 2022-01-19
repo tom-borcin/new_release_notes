@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added SHA384/SHA512 support for internal client. <sup>(1)</sup>

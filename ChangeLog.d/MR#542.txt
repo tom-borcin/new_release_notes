@@ -1,0 +1,2 @@
+## Core System
+* Cache: Support 16KB DCache size for ESP32-S3

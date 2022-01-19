@@ -1,0 +1,2 @@
+## mDNS
+* Fixed reported error found during static analysis

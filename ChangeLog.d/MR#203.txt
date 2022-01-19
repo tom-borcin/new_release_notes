@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed miss-overwrite of some PHY registers when Wi-Fi modem sleep is enabled. <sup>(1)</sup>

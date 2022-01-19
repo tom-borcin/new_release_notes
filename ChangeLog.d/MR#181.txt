@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* Added support for chain topology <sup>(1)</sup>

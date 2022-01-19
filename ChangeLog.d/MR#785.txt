@@ -1,0 +1,2 @@
+## Provisioning
+* BLE Provisioning: Added secure connection pairing support to unified provisioning framework.

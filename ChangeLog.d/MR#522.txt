@@ -1,0 +1,2 @@
+## Core System
+* heap: fix ESP32-C3 build issue with heap tracing enabled

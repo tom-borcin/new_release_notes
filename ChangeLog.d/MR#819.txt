@@ -1,0 +1,2 @@
+## Storage
+* vfs: Fix build errors in esp_vfs.h when included in C++ files with target ESP32-C3 <sup>(1)</sup>

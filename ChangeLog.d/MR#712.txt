@@ -1,0 +1,2 @@
+## LWIP
+* Added ND6 RDNSS DNS server Kconfig option.

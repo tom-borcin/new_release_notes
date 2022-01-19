@@ -1,0 +1,2 @@
+## Documentation
+* Timer: Provided APB clock frequency information in api-reference/timers.rst and in timers.h

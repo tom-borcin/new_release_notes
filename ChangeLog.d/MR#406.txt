@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2C: Fixed i2c randomly timeout and triggers watchdog timeout on ESP32-C3

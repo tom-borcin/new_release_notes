@@ -1,0 +1,2 @@
+## Examples
+* pppos_client: Fixed SMS sending before switching to data mode <sup>(1)</sup>

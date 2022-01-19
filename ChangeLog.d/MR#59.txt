@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Bluetooth Low Energy
+* Fixed controller do not report disconnect event to host

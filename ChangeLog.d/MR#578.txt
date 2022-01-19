@@ -1,0 +1,2 @@
+## FreeRTOS
+* Changed minimal stack size to regard watchpoint usage

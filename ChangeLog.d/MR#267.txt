@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed WAPI Key mgmt compatible issue

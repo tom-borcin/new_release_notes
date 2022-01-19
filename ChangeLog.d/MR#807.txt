@@ -1,0 +1,2 @@
+## ESP-MQTT
+* Added config option to configure custom retransmission interval <sup>(1)</sup>

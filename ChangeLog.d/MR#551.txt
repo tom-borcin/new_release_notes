@@ -1,0 +1,2 @@
+## Core System
+* SoC: Added reset reason header into soc component

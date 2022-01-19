@@ -1,0 +1,2 @@
+## Documentation
+* Restored flash encryption section about manually encrypting files on the host (with a copy of the same key stored in eFuse)

@@ -1,0 +1,2 @@
+## Examples
+* Replaced hyphens with underscore in get-started directory

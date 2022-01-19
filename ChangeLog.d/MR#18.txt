@@ -1,0 +1,2 @@
+## OpenThread
+* Added platform UDP and task queue port for the border agent feature

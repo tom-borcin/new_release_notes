@@ -1,0 +1,2 @@
+## Core System
+* efuse: Fixed a bug related to the non-sequential way of describing eFuses in efuse_table when such fields go together sequentially

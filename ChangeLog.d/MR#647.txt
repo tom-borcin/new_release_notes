@@ -1,0 +1,2 @@
+## Tools
+* idf_size: Fixed bug with --archive_details that always runs like with --diff label

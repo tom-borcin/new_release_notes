@@ -1,0 +1,2 @@
+## Core System
+* CXX: Fixes build error when including gpio_ll.h from cpp file

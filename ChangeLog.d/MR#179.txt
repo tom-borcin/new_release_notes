@@ -1,0 +1,2 @@
+## Wi-Fi & BT Coexistence
+* Support external coexistence when WiFi starts, customers can use it for extending the other communication protocols to the mechanism of time diversion.

@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* Shortened some log messages in bluedroid

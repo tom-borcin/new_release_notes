@@ -1,0 +1,2 @@
+## Ethernet
+* Fixed wrong register bit order in KSZ8041 phy driver <sup>(1)</sup>

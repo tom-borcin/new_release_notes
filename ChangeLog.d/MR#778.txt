@@ -1,0 +1,2 @@
+## HTTP Server
+* Added convenient websocket send functions

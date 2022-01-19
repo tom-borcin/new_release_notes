@@ -1,0 +1,2 @@
+## Documentation
+* Timer: fix uninterpreted variables in timer.rst

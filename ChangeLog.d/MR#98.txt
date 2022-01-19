@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* SPP：Added parameter service_name with event ESP_SPP_DISCOVERY_COMP_EVT

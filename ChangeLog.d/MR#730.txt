@@ -1,0 +1,2 @@
+## mDNS
+* Added mdns_delegate_hostname_add mdns_delegate_hostname_remove and mdns_hostname_exists for managing the delegated hosts.

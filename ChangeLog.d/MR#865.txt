@@ -1,0 +1,2 @@
+## Examples
+* Bluetooth: Fixed the use of deprecated sdkconfig options in the example and rename the example

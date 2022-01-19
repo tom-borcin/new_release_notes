@@ -1,0 +1,2 @@
+## Security
+* Default supported ESP32-C3 Revision ECO3 <sup>(1)</sup>

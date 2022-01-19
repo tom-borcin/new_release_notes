@@ -1,0 +1,2 @@
+## Core System
+* VDD_SDIO power domain can now be configured to remain on during light sleep. <sup>(1)</sup>

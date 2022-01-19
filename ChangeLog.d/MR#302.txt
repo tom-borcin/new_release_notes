@@ -1,0 +1,2 @@
+## Ethernet
+* Fixed esp_eth to only warn about negotiation timeout when link is up <sup>(1)</sup>

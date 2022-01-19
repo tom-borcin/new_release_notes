@@ -1,0 +1,2 @@
+## Provisioning
+* WiFi credentials were not saved to NVS if esp_wifi_set_config() was called by some other module after wifi_prov_mgr_start_provisioning()

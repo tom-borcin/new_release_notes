@@ -1,0 +1,2 @@
+## Core System
+* spi_flash/encrypt: Fixed esp_flash_encrypted write (#6254) (#6322)

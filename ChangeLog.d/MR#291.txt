@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed verbosity of supplicant logs

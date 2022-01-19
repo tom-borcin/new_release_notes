@@ -1,0 +1,2 @@
+## Core System
+* Added Kconfig option to disable boot ROM log

@@ -1,0 +1,2 @@
+## Storage
+* NVS: fixed crashes from entries with state 1

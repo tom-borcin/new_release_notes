@@ -1,0 +1,2 @@
+## Core System
+* Move ETS_T1_WDT_INUM, ETS_CACHEERR_INUM and ETS_DPORT_INUM to l5 interrupt <sup>(1)</sup>

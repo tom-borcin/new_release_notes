@@ -1,0 +1,2 @@
+## Core System
+* esp_event: Fixed and improved docs

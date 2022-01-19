@@ -1,0 +1,2 @@
+## OTA
+* esp_https_ota: Added support for partial image download over HTTP/1.1

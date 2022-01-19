@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Added the FMB_PORT_TASK_AFFINITY kconfig option for modbus tasks (#6700)

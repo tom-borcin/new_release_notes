@@ -1,0 +1,2 @@
+## Security
+* Refactored code for secure boot (v1/v2) and flash encryption for better multi-target support

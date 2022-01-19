@@ -1,0 +1,2 @@
+## Documentation
+* Fixed esp_ota_revoke_secure_boot_public_key API documentation not appearing in the appropriate docs

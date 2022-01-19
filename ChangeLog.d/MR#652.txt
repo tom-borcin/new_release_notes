@@ -1,0 +1,2 @@
+## Tools
+* Avoid shell autocomplete initialization for bash version lower than 4

@@ -1,0 +1,2 @@
+## Ethernet
+* Added support for KSZ8851SNL SPI Ethernet driver

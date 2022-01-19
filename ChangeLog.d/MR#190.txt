@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/c3: Fixed mesh deinit blocking issue <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* ADC: Fixed incorrect comments of ADC1_CHANNEL_8 and ADC1_CHANNEL_9 for ESP32-S2 (#6577)

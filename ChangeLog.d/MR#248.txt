@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed PMF issue with broadcast deauths with certain reason codes <sup>(1)</sup>

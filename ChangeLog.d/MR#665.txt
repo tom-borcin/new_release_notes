@@ -1,0 +1,2 @@
+## Debugging
+* apptrace: ESP32-C3 support

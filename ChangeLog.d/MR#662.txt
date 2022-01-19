@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Get core dump summary API. Added on device core dump parsing support for ELF file.

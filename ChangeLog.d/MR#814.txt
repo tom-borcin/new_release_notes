@@ -1,0 +1,2 @@
+## TCP Transport
+* Added configuration option CONFI_WS_TRANSPORT to disable Websocket transport if not used. <sup>(1)</sup>

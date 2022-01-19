@@ -1,0 +1,2 @@
+## Tools
+* idf_size: Changed --archive_details output

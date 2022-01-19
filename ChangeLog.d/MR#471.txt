@@ -1,0 +1,2 @@
+## Core System
+* Fixed potential failure to start in ESP32-S2 RISC-V ULP <sup>(1)</sup>

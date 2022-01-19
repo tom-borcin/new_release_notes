@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* MCPWM: Added check for the num_of_pulse argument of mcpwm_capture_enable function. (#5032)

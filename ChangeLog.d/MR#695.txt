@@ -1,0 +1,2 @@
+## LWIP
+* Added CONFIG_LWIP_DHCPS to enable/disable DHCP server. <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Bootloader
+* Added config options to bypass app validation for minimum boot-time overhead <sup>(1)</sup>

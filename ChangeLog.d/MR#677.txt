@@ -1,0 +1,2 @@
+## Power Management
+* Fixed Flash leakage current when its CS pin has no hardware pullup <sup>(1)</sup>

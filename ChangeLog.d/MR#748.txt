@@ -1,0 +1,2 @@
+## OTA
+* esp_https_ota: Enabled option of using global_ca_store and x509_crt_bundle

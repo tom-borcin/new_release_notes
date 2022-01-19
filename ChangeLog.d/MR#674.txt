@@ -1,0 +1,2 @@
+## Power Management
+* Added support of RTC8M (Internal 8MHz OSC) power domain <sup>(1)</sup>

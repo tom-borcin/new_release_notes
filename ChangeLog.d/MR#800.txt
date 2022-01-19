@@ -1,0 +1,2 @@
+## ESP-TLS
+* Fixed esp_mbedtls_write API when 0 bytes are written. <sup>(1)</sup>

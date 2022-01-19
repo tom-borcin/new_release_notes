@@ -1,0 +1,2 @@
+## Wi-Fi & BT Coexistence
+* Fixed BLE scannable extended adv performance issue in case of Wi-Fi coexistence

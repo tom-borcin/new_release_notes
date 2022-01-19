@@ -1,0 +1,2 @@
+## Core System
+* Reset Core0 after disable cache in esp_restart_noos() <sup>(1)</sup>

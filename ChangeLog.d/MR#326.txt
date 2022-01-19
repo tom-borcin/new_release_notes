@@ -1,0 +1,2 @@
+## Security
+* ESP32-C3/memprot: Fixed get_split_addr calculation and incorrect access to DRAM split address register <sup>(1)</sup>

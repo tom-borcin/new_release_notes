@@ -1,0 +1,2 @@
+## newlib libc
+* Fixed flushing console output when CONFIG_VFS_SUPPORT_IO is disabled <sup>(1)</sup>

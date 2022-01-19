@@ -1,0 +1,2 @@
+## Examples
+* Identify the callback whether is hanshake or frame-receive by req->method

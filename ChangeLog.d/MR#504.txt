@@ -1,0 +1,2 @@
+## Core System
+* Fixed a bug preventing user from putting panic handlers outside of the IRAM.

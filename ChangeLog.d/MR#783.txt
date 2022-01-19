@@ -1,0 +1,2 @@
+## Provisioning
+* Updated README.md to explain QR code format (#6629)

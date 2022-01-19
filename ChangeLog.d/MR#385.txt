@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Master: Fixed the crash when using interrupt mode when cache is disabled (#6529, #6781, #7368)

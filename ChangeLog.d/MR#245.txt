@@ -1,0 +1,2 @@
+## Wi-Fi
+* Clear WLAN_FC_STYPE_ACTION bit in esp_register_action_frame <sup>(1)</sup>

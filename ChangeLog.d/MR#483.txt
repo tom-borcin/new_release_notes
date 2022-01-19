@@ -1,0 +1,2 @@
+## Core System
+* Fixed the sizes of .text and .rodata segments on ESP32-S2 <sup>(1)</sup>

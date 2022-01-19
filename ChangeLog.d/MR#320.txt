@@ -1,0 +1,2 @@
+## Security
+* secure_boot: Secure Boot V2 verify app signature on update <sup>(1)</sup>

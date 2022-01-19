@@ -1,0 +1,2 @@
+## newlib libc
+* PSRAM: Changed the place where libc workaround can be stored. It can now be in flash or in IRAM.

@@ -1,0 +1,2 @@
+## mbedTLS
+* Fixed issue where hardware MPI was not being used in some cases for ESP32-C3

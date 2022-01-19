@@ -1,0 +1,2 @@
+## Tools
+* Create the ".espressif" directory on the first run on clean system (#7848)

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed WiFi tx bug in low data rate.

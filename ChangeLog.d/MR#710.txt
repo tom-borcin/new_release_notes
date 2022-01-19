@@ -1,0 +1,2 @@
+## LWIP
+* Added configuration to disable DHCP client identification

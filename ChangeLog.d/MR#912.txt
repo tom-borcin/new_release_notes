@@ -1,0 +1,2 @@
+## Documentation
+* Updated adc_types.h

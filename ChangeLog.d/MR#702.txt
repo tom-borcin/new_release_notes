@@ -1,0 +1,2 @@
+## LWIP
+* Added NETIF_API config option to enable standard posix netif API, such as if_indextoname()

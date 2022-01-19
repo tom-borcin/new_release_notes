@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* GPIO: Enable GPIO20 for ESP32-PICO-V3 chip package (#6918)

@@ -1,0 +1,2 @@
+## Examples
+* Readme file updated on the examples/get-started/blink

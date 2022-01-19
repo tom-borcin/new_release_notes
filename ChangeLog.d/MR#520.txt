@@ -1,0 +1,2 @@
+## Core System
+* Fixed bug where pthread_cond_timedwait() could return a timeout before abstime timestamp (#6901)

@@ -1,0 +1,2 @@
+## OTA
+* advanced_https_ota: Added NimBLE and bluedroid GATT Server support and related CI changes for testing.

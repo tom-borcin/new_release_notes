@@ -1,0 +1,2 @@
+## Power Management
+* Light sleep: Fixed timer offset issue with ESP32-S2 light sleep first wakeup

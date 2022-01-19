@@ -1,0 +1,2 @@
+## mDNS
+* Added more attributes to mdns_result_t: service_type, proto and ttl.

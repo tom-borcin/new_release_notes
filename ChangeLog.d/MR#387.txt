@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Freemodbus: Fixed master and slave use the same timer group index (#4699)

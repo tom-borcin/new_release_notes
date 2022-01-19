@@ -1,0 +1,2 @@
+## Core System
+* Added support of auto light sleep for ESP32-S3

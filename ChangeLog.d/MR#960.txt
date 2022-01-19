@@ -1,0 +1,2 @@
+## Documentation
+* Updated misc docs with ESP32-S3 specific information. Any docs which are not yet updated for ESP32-S3 contain a warning.

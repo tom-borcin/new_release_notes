@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed issue with hidden AP scans after connecting to an AP <sup>(1)</sup>

@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HFP: Fixed build error for HFP-HF when bluedroid dynamic memory allocation is enabled.

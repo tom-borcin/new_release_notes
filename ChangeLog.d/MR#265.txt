@@ -1,0 +1,2 @@
+## Wi-Fi
+* WPA_Supplicant: Fixed supplicant debug logs errors.

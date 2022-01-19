@@ -1,0 +1,2 @@
+## Debugging
+* coredump: core dump check can now be parametrized in menuconfig <sup>(1)</sup>

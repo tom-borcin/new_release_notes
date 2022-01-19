@@ -1,0 +1,2 @@
+## Tools
+* Upgraded OpenOCD version to v0.11.0-esp32-20211220

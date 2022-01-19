@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Added MB_PORT_PARITY_GET() to propagate UART parity options from mb controller to serial port layer (#6377)

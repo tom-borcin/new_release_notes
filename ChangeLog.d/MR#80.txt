@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Fixed issue that function called in ISR is not labeled with "IRAM_ATTR" in Bluetooth Controller in ESP32-S3

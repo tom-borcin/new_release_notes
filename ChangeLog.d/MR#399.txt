@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Fixed server task to exit gracefully to enable multiple restarts of a modbus client

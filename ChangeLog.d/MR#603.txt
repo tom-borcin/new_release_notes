@@ -1,0 +1,2 @@
+## Bootloader
+* Fixed psram cache issue work-arounds also being applied to the bootloader

@@ -1,0 +1,2 @@
+## OpenThread
+* Added OpenThread lwIP interface to the ot_cli example.

@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/recv: Added option MESH_OPT_RECV_RATE (esp32-only). <sup>(1)</sup>

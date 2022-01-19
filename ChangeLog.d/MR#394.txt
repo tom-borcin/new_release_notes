@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* ADC: Fixed adc2 single reading bug when working with WiFi

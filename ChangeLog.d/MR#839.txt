@@ -1,0 +1,2 @@
+## External Libraries
+* coap: Update libcoap logging to use esp-idf logging

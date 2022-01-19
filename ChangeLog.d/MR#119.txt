@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HFP：Fixed single-tone sample sequence generation error in HFP examples

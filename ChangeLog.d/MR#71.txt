@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Bluetooth Low Energy
+* Fixed disconnection due to MIC failure (error code:0x3D) during pairing is fixed

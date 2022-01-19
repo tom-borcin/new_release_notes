@@ -1,0 +1,2 @@
+## Wi-Fi & BT Coexistence
+* Coexistence: Fixed performance issue for extended active scan in coexistence scenario: use the same priority for Rx of AUX_ADV_IND and AUX_SCAN_RSP

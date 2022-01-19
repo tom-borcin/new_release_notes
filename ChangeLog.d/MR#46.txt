@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fixed the assert in checking hardware sleep state during wake-up

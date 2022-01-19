@@ -1,0 +1,2 @@
+## Wi-Fi
+* Validate FTM Initiator config parameters and propagate status <sup>(1)</sup>

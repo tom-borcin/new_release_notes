@@ -1,0 +1,2 @@
+## Security
+* bootloader: Added a check of FE eFuse bit is on when an app is run

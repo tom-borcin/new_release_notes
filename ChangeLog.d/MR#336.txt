@@ -1,0 +1,2 @@
+## Security
+* Memprot: Fixed voltage glitching detection logic <sup>(1)</sup>

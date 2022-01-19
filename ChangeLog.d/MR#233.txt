@@ -1,0 +1,2 @@
+## Wi-Fi
+* Refactor WiFi ioctl function <sup>(1)</sup>

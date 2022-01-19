@@ -1,0 +1,2 @@
+## Security
+* memprot: Fixed IRAM section alignment to avoid CPU prefetch overflowing to DRAM (causes PMS violation interrupt) <sup>(1)</sup>

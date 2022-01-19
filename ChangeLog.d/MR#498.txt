@@ -1,0 +1,2 @@
+## Core System
+* Possible to build the firmware with no embedded file paths in the binary (#6306)

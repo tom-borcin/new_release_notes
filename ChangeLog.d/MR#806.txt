@@ -1,0 +1,2 @@
+## Websocket
+* Added Support to bind socket to specified interface function

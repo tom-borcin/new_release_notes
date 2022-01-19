@@ -1,0 +1,2 @@
+## Examples
+* freemodbus: Added examples of API usage

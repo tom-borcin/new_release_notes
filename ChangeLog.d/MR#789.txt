@@ -1,0 +1,2 @@
+## mbedTLS
+* Added support for external memory policy for ESP32-S2 <sup>(1)</sup>

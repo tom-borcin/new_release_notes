@@ -1,0 +1,2 @@
+## Ethernet
+* Added PHY loopback control via esp_eth_ioctl.

@@ -1,0 +1,2 @@
+## ESP-MQTT
+* Fixed to support zero length username if password is set without username (espressif/esp-mqtt#183)

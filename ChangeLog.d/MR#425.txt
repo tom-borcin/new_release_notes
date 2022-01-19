@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SDIO Slave: Allow getting end of frame information

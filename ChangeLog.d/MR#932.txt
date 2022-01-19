@@ -1,0 +1,2 @@
+## Documentation
+* Replaced ESP32-WROVER-B with ESP32-WROVER-E in ESP-WROVER-Kit user guide

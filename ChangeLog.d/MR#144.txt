@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed Bluedroid Host auto update PPCP after exchange connection parameters

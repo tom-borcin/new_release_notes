@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* ADC: Supported ADC DMA mode

@@ -1,0 +1,2 @@
+## HTTP Client
+* Fixed case sensitivity in comparison of auth string

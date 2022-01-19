@@ -1,0 +1,2 @@
+## Examples
+* Fixed compilation of protocols examples with CONFIG_EXAMPLE_USE_OPENETH=y <sup>(1)</sup>

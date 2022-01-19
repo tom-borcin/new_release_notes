@@ -1,0 +1,2 @@
+## LWIP
+* PPP: Fixed disable IPv6 will make esp_netif_lwip_ppp build fail.

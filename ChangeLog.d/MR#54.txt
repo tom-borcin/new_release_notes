@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fixed the Rx performance issue for coded PHY, especially in coexistence scenario for ESP32-C3/ESP32-S3

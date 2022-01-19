@@ -1,0 +1,2 @@
+## Bootloader
+* Fixed support for QIO & QOUT modes on ESP32-U4WDH chip and default configuration (#6191)

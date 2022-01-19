@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* LCD: Support 8-line SPI LCD driver

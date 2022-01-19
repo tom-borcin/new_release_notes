@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed static analysis warnings

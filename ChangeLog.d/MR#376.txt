@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Flash: Added unlock function patch in bootloader to make GD flash more stable

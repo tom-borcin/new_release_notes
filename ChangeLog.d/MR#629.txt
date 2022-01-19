@@ -1,0 +1,2 @@
+## Tools
+* coredump: Added ESP32-C3 support

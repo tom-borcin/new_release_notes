@@ -1,0 +1,2 @@
+## Core System
+* esp-timer: Helper function to identify the status of timer <sup>(1)</sup>

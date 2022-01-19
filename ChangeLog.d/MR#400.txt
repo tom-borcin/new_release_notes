@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: fix PVS-Studio issues in modbus controller and mb stack

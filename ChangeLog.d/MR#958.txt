@@ -1,0 +1,2 @@
+## Documentation
+* Module on ESP32-DevkitC has been updated from ESP32-WROVER to ESP32-WROOM

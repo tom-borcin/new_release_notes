@@ -1,0 +1,2 @@
+## Bluedroid
+* Fixed the the code analysis report error reported by customer

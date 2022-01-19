@@ -1,0 +1,2 @@
+## NimBLE
+* Fixed max connection configuration issue in ESP32-C3.

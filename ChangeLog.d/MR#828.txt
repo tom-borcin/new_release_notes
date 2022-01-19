@@ -1,0 +1,2 @@
+## Storage
+* Partition tables: Build system produces a warning if a data partition is not aligned to 4 kB (#7295, #7350). This will become an error in the future release.

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Modified connect example to add scan mode config

@@ -1,0 +1,2 @@
+## Documentation
+* Provided missing information about OT joiner configuration

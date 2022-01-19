@@ -1,0 +1,2 @@
+## Wi-Fi
+* Modify not to store the default value in NVS<sup>(1)</sup>

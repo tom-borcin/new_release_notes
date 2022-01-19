@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed RM capability missing for open mode AP<sup>(1)</sup>

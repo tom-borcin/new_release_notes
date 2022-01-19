@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fix ESP32-S3 malloc rom funcs ptr in psram when psram enable.

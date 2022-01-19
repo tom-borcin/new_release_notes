@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* MCPWM: Fixed wrong deadtime preset modes (#7321)

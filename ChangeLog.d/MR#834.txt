@@ -1,0 +1,2 @@
+## External Libraries
+* expat: Update library from 2.2.9 to 2.4.1. <sup>(1)</sup>

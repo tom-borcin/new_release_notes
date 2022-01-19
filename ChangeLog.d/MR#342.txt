@@ -1,0 +1,2 @@
+## Security
+* esp_hw_support: added HMAC upstream functionality for ESP32-S3

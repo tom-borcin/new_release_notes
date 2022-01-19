@@ -1,0 +1,2 @@
+## Core System
+* efuse: Fixed len of SOFT_DIS_JTAG eFuse from 2 to 3 for ESP32-C3 and ESP32-H2 <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added a new API to destroy default WiFi network interface created with esp_netif_create_default_wifi_...() API.

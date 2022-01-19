@@ -1,0 +1,2 @@
+## Core System
+* CXX: Added VA_OPT(,) support for C++20

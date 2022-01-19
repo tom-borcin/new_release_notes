@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* Fixed L2CAP Repeat CID

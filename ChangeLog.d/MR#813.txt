@@ -1,0 +1,2 @@
+## TCP Transport
+* Move code under relevant config option to save some flash footprint. <sup>(1)</sup>

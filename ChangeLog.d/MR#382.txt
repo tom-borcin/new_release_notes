@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* esp_timer: Added fix to reset timer group peripheral in timer_init() function (#6466)

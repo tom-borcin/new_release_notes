@@ -1,0 +1,2 @@
+## OTA
+* otatool: Fixed incorrect using otadata.seq&crc in switch_ota_partition cmd <sup>(1)</sup>

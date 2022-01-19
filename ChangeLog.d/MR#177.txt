@@ -1,0 +1,2 @@
+## ESP-BLE-Mesh
+* Apply the errata E16350 of BLE Mesh from Bluetooth SIG

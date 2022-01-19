@@ -1,0 +1,2 @@
+## Tools
+* Console: Fixed a bug preventing REPL from being launched on another UART than default one (#6897)

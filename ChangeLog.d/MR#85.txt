@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Fixed unable to initiate SCO connection when peer device not accept sniff mode

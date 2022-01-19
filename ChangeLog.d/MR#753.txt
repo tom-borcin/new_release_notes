@@ -1,0 +1,2 @@
+## HTTP Client
+* Fixed header truncated when responded header length over buffer_size (#6370) <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added support of regdomain database.<sup>(1)</sup>

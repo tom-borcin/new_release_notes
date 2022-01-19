@@ -1,0 +1,2 @@
+## Storage
+* Partition Table: The partition table MD5 checksum is now checked when the partition table is loaded by the app, in addition to the existing check in the bootloader. <sup>(1)</sup>

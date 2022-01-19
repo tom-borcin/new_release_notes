@@ -1,0 +1,2 @@
+## HTTP Client
+* Added cert and key length options in esp_http_client_config_t (#6556)

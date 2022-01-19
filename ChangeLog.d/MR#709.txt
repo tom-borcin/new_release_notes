@@ -1,0 +1,2 @@
+## LWIP
+* Added IP_EVENT_ETH_LOST_IP event.

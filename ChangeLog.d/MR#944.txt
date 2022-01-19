@@ -1,0 +1,2 @@
+## Documentation
+* Updated Chinese translation of numerous files of the Programming Guide, updated corresponding English version of the files to get them in sync

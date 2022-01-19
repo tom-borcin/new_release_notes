@@ -1,0 +1,2 @@
+## NimBLE
+* Updated custom logging support for NimBLE host.

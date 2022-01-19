@@ -1,0 +1,2 @@
+## Debugging
+* apptrace: Refactored apptrace for better support of various tracing HW

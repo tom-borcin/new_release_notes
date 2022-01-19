@@ -1,0 +1,2 @@
+## Core System
+* Added esp_log_level_get() function (#6573)

@@ -1,0 +1,2 @@
+## Security
+* ESP32-S2: Updated Memprot feature API - no logging and no aborts in case of failure, esp_err_t returned wherever reasonable instead. Error handling and possible logging done on caller's side

@@ -1,0 +1,2 @@
+## Core System
+* Fixed pm lock bug in dual core mode

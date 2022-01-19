@@ -1,0 +1,2 @@
+## Bootloader
+* Fixed bootloader_common_get_sha256_of_partition when RSA CHECK_SIGNATURE is on <sup>(1)</sup>

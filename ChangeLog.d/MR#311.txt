@@ -1,0 +1,2 @@
+## Ethernet
+* Updated ethernet/basic example to demonstrate usage of multiple Ethernet interfaces at a time

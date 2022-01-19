@@ -1,0 +1,2 @@
+## Documentation
+* Provided a new example demonstrating building an application with multiple configurations

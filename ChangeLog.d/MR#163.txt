@@ -1,0 +1,2 @@
+## NimBLE
+* Fixed wifi_prov_mgr crash after provisioning. Added fix to not check for stack status while registering listener

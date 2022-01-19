@@ -1,0 +1,2 @@
+## Wi-Fi
+* Updated libphy.a to V1800 20210413_e7ef680 for ESP32-S2 <sup>(1)</sup>

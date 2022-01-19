@@ -1,0 +1,2 @@
+## Examples
+* Fixed enable CONFIG_EXAMPLE_RESET_PROVISIONED will cause device crash <sup>(1)</sup>

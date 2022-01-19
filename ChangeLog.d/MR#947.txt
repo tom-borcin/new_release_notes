@@ -1,0 +1,2 @@
+## Documentation
+* ADC: Updated ADC calibration programming guide on ESP32-C3

@@ -1,0 +1,2 @@
+## Ethernet
+* Configure EMAC data interface before resetting PHY chip (#7227) <sup>(1)</sup>

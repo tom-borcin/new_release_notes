@@ -1,0 +1,2 @@
+## Build System
+* Fixed overriding Python path with -DPYTHON when building IDF as CMake library (#6285) <sup>(1)</sup>

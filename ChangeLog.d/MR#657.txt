@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Fixed multiple bugs related to fake stacks and stacks in RTC DRAM (#6750, #6751) <sup>(1)</sup>

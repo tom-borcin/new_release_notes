@@ -1,0 +1,2 @@
+## Power Management
+* Fixed driver using wrong print function in a critical section (https://github.com/espressif/esp-idf/issues/7942)

@@ -1,0 +1,2 @@
+## Core System
+* Cache: Register flash2spiram info to ROM for ESP32-S3

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Slave: Restrict MOSI/MISO enable on transaction preparation only for ESP32

@@ -1,0 +1,2 @@
+## Security
+* local_ctrl: Added support for protocom security1 and custom security <sup>(1)</sup>

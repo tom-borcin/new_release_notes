@@ -1,0 +1,2 @@
+## Core System
+* Fixed large number of "unused variable" warnings when asserts are disabled

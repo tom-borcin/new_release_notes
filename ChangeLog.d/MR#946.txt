@@ -1,0 +1,2 @@
+## Documentation
+* Storage: Updated SD card example (split in 2 new examples for both SDMMC and SDSPI)

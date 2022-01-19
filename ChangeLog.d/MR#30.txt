@@ -1,0 +1,2 @@
+## OpenThread
+* Remove openthread-core-esp32x-config.h, added openthread-core-esp32x-cli-config.h and openthread-core-esp32x-rcp-config.h

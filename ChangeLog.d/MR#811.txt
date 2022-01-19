@@ -1,0 +1,2 @@
+## ESP-MQTT
+* Added NULL pointer checks for public APIs.

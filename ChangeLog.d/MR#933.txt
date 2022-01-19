@@ -1,0 +1,2 @@
+## Documentation
+* Added a new module variant: ESP32-WROOM-DA for ESP32-DevKitC V4.1 board

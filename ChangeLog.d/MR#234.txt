@@ -1,0 +1,2 @@
+## Wi-Fi
+* Compile WiFi library with -Os instead of -Og <sup>(1)</sup>

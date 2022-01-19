@@ -1,0 +1,2 @@
+## mDNS
+* Added support for explicitly specifying txt value data length for the published services

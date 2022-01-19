@@ -1,0 +1,2 @@
+## mDNS
+* Fixed parsing queries containing non-standard domains.

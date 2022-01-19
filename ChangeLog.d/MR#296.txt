@@ -1,0 +1,2 @@
+## Ethernet
+* Added support for KSZ8081 Ethernet PHY (#6578) <sup>(1)</sup>

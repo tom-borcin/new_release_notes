@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Fixed the issue create Connection request is not properly terminated which blocks BlueZ from reconnecting

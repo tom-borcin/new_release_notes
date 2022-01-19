@@ -1,0 +1,2 @@
+## Documentation
+* UART: Fix adopted typo in overview section of UART documentation (#6327)

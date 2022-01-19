@@ -1,0 +1,2 @@
+## Build System
+* Legacy Make Build System: Produce error if BUILD_DIR_BASE is a Windows-style path (#2736)

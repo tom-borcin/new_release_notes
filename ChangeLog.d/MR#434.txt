@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Flash: Support override default chip driver list

@@ -1,0 +1,2 @@
+## Core System
+* Xtensa: Changed the way assembly files jumps to functions located in another compilation unit

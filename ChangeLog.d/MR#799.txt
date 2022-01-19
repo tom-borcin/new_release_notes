@@ -1,0 +1,2 @@
+## ESP-TLS
+* secure_element: Updated esp-cryptoauthlib submodule to cryptoauthlib-v3.3.1. <sup>(1)</sup>

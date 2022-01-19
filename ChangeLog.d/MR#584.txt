@@ -1,0 +1,2 @@
+## Build System
+* Improved error message if the Python dependency check completely fails to run due to an issue with the Python interpreter <sup>(1)</sup>

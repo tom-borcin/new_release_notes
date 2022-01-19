@@ -1,0 +1,2 @@
+## Storage
+* vfs: Fixed possible wrong select return value when file descriptor is closed

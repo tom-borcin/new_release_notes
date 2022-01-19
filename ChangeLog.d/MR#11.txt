@@ -1,0 +1,2 @@
+## OpenThread
+* Updated OpenThread submodule to contain TCP message leak fix.

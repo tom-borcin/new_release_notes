@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2C: Added wrappers for simplifying writes, reads and write-reads

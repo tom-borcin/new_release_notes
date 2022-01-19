@@ -1,0 +1,2 @@
+## mDNS
+* Updated APIs description and added a warning when hostname contains '.local' at the end of query (#6590)

@@ -1,0 +1,2 @@
+## HTTP Client
+* Add an interface that can get session errno so that it can be processed according to requirements in the user layer

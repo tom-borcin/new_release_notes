@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Supported HID examples for ESP32-C3 and ESP32-S3

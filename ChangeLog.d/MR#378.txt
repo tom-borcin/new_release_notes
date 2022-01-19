@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2S: Fixed the wrong value of I2S_COMM_FORMAT_STAND_MSB.

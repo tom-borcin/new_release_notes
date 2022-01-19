@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Added support for RISC-V based boards. <sup>(1)</sup>

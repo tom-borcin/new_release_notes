@@ -1,0 +1,2 @@
+## LWIP
+* Added PPP config option to set LCP echo options (#5119)

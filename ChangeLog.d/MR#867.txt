@@ -1,0 +1,2 @@
+## Examples
+* Added support of ESP32-S3 chip in controller_hci_uart example

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added beacon timeout event. <sup>(1)</sup>

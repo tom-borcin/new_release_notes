@@ -1,0 +1,2 @@
+## LWIP
+* Fixed ICMP ping on a specific network interface (#7397) <sup>(1)</sup>

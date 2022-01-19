@@ -1,0 +1,2 @@
+## Examples
+* I2S: Added ES8311 example and unit-test for I2S

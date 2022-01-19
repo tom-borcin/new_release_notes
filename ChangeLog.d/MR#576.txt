@@ -1,0 +1,2 @@
+## FreeRTOS
+* esp_ringbuf: Fixed a bug where comparision between a signed and unsigned operand resulted in incorrect free size for no-split/allow-split buffers (https://github.com/espressif/esp-idf/issues/7344)

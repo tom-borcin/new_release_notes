@@ -1,0 +1,2 @@
+## Documentation
+* Build docs related files have been moved to esp-docs repository

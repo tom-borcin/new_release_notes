@@ -1,0 +1,2 @@
+## Documentation
+* freemodbus: Update modbus documentation + description of types

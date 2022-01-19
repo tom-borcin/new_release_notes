@@ -1,0 +1,2 @@
+## Security
+* bootloader: Added rng entropy activation and deactivation API

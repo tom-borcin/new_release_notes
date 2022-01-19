@@ -1,0 +1,2 @@
+## Ethernet
+* Extended simple_sniffer example with option to sniff traffic on the Ethernet interface.

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus/examples: Fixed TCP master,slave examples reinitialization sequence

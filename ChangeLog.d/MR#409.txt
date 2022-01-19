@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* LCD: Added esp_lcd component, support SPI/I2C/8080/RGB LCD panels

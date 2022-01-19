@@ -1,0 +1,2 @@
+## Examples
+* LEDC: Added support for addressable LED in the blink example

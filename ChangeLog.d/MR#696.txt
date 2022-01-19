@@ -1,0 +1,2 @@
+## LWIP
+* esp_netif: Fixed state transition of DHCP server if it's stopped before setting the interface up <sup>(1)</sup>

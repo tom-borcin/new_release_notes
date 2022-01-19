@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/c3: Fixed root has no eb for deauth frames during the networking <sup>(1)</sup>

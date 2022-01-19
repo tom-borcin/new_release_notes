@@ -1,0 +1,2 @@
+## External Libraries
+* cJSON: Updated cJSON submodule to v1.7.15 <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/root: Change the condition of s_extra_scan_attempts <sup>(1)</sup>

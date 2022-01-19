@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed error in setting channel after WiFi stop <sup>(1)</sup>

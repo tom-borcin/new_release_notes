@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Timer Group: Reenable alarm interrupt only when auto reload is selected (#7001)

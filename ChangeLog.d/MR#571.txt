@@ -1,0 +1,2 @@
+## FreeRTOS
+* Added Best Effort Round Scheduling. Replaces old behavior where tasks can be skipped indefinitely when time slicing. (https://github.com/espressif/esp-idf/issues/7256)

@@ -1,0 +1,2 @@
+## mbedTLS
+* Disable MBEDTLS_DYNAMIC_BUFFER feature when MBEDTLS_SSL_PROTO_DTLS is selected

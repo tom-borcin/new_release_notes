@@ -1,0 +1,2 @@
+## OpenThread
+* esp_openthread_netif_glue_init now requires platform config as its parameter

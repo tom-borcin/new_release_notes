@@ -1,0 +1,2 @@
+## ESP-BLE-Mesh
+* Update the SIG recommendations for BLE Mesh CVE issues

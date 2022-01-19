@@ -1,0 +1,2 @@
+## Debugging
+* coredump: esp_core_dump_image_get() is now available again when core dump is not activated in menuconfig <sup>(1)</sup>

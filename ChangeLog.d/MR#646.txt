@@ -1,0 +1,2 @@
+## Tools
+* idf.py: Added Linux target support for idf.py flash and idf.py monitor

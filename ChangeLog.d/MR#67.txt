@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Bluetooth Low Energy
+* Fixed BLE ACL Tx Flush issue during Reset/Reboot

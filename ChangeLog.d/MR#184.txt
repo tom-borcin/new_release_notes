@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/rssi: Average the router_rssi. <sup>(1)</sup>

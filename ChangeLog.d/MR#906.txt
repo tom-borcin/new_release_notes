@@ -1,0 +1,2 @@
+## Documentation
+* Added ESP32-C3-DevKitC-02 User Guide

@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fixed rx interrupt flooding during BLE scan event in coexistence scenario, in the case that no Rx buffer is available.

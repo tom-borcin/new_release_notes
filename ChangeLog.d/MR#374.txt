@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI: Updated essl_spi driver to support synchronized data read/writes with a ESP SPI Slave working in append mode.

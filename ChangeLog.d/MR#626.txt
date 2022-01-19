@@ -1,0 +1,2 @@
+## Tools
+* Automatically determine ESP-IDF directory in install.fish (#6718)

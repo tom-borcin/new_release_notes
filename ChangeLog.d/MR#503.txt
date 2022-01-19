@@ -1,0 +1,2 @@
+## Core System
+* ULP: updated the ld file for riscv ulp for ESP32-S2

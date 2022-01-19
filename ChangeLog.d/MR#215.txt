@@ -1,0 +1,2 @@
+## Wi-Fi
+* Support to sleep for station in disconnected status.<sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Examples
+* MCPWM: new example: HC-SR04 sonar sensor

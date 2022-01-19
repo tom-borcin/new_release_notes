@@ -1,0 +1,2 @@
+## Examples
+* SPI SLAVE HD: Fixed stack variable bug in seg_slave example (https://github.com/espressif/esp-idf/issues/7163)

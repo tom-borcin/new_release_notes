@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2C: Added i2c_cmd_link_create_static() function to allow static allocation for I2C commands list

@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HID: Added configuration of HID task stack size (#6385)

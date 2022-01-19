@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2S: Fixed WS signal polarity in TDM mode

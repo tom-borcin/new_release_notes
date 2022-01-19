@@ -1,0 +1,2 @@
+## OpenThread
+* Added esp_openthread_border_router_* api

@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Fixes EPC and EPS register values printed by espcoredump.py <sup>(1)</sup>

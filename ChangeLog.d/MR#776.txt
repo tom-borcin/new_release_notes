@@ -1,0 +1,2 @@
+## HTTP Server
+* Fixed infinite loop on closed socket

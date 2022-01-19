@@ -1,0 +1,2 @@
+## OpenThread
+* Enable multicast ping in OpenThread examples by default

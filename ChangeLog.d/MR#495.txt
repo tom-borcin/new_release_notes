@@ -1,0 +1,2 @@
+## Core System
+* esp_timer: Added a Kconfig option to set the interrupt level for esp_timer ISR

@@ -1,0 +1,2 @@
+## Documentation
+* Provided new rules for formatting documents.

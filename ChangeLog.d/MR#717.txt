@@ -1,0 +1,2 @@
+## LWIP
+* Added minimal vfs implementation of fstat() which sets the st_mode to socket type (#7198)

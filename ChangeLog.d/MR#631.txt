@@ -1,0 +1,2 @@
+## Tools
+* extend GDBStub component for handling GDB by serial port at runtime.

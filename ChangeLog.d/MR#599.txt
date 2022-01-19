@@ -1,0 +1,2 @@
+## Bootloader
+* Improved XMC flash stabilities as main flash <sup>(1)</sup>

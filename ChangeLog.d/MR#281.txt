@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed ESP32-C3/ESP32-S3 RSSI change with bandwidth issue

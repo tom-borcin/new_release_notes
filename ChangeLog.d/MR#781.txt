@@ -1,0 +1,2 @@
+## Provisioning
+* Provisioning BLE: Added API support to set manufacturer data in advertisement packets.<sup>(1)</sup>

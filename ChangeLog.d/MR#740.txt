@@ -1,0 +1,2 @@
+## mDNS
+* Added mdns_service_exists_with_instance to check service existence with certain instance name.

@@ -1,0 +1,2 @@
+## Core System
+* Added support for specify the maximum descriptor length when setting up the DMA descriptor link

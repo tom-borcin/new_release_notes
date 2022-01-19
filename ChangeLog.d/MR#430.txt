@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI: Fixed SPI Master Fullduplex DMA mode single-direction-transaction bug

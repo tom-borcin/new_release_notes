@@ -1,0 +1,2 @@
+## Bootloader
+* Fixed the issue that SPI Flash ROM functions are not correctly linked when CONFIG_SPI_FLASH_ROM_DRIVER_PATCH not enabled (#7508)

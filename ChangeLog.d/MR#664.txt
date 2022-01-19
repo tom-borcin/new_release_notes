@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Added support for the ESP32-S3

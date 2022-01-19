@@ -1,0 +1,2 @@
+## Security
+* secure_boot: Fixed warning when UART ROM DL mode is disabled.

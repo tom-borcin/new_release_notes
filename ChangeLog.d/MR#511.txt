@@ -1,0 +1,2 @@
+## Core System
+* Fixed compilation of esp32/spiram.h from C++ code (#6658)

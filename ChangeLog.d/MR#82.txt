@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Modify E8192 ELx200 ELx40 log level to LOGD.

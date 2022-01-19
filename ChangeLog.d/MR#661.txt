@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Added esp_core_dump_image_erase function (#6631)

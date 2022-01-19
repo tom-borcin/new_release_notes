@@ -1,0 +1,2 @@
+## Security
+* AES/SHA: Fixed cache writeback/invalidate not being applied for CONFIG_SPIRAM_USE_MEMMAP

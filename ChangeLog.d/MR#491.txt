@@ -1,0 +1,2 @@
+## Core System
+* ULP: Updated CONFIG_ULP_COPROC_RESERVE_MEM max value to reflect the max available memory <sup>(1)</sup>

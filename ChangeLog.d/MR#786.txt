@@ -1,0 +1,2 @@
+## Provisioning
+* Change default PoP argument of esp_prov.get_security from None to string (#7130)

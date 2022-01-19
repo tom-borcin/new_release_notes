@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* TWAI: Fixed incorrect timing configuration initializers for the 1K, 5K and 10K bit rates.

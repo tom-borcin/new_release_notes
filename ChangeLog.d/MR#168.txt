@@ -1,0 +1,2 @@
+## NimBLE
+* Fixed Memory leak due to timer not destroyed during Nimble host start/stop

@@ -1,0 +1,2 @@
+## Security
+* Added support for encrypting binary with xts-aes 512-bit key<sup>(1)</sup>

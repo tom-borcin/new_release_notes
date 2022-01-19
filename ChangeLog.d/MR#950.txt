@@ -1,0 +1,2 @@
+## Documentation
+* SPI: Fixed the default maximum transaction length.

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SDMMC: sdmmc_host_pullup_en is deprecated in favor of SDMMC_SLOT_FLAG_INTERNAL_PULLUP flag in sdmmc_slot_config_t::flags.

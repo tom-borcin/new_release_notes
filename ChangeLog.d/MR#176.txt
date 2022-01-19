@@ -1,0 +1,2 @@
+## ESP-BLE-Mesh
+* Fixed filtering error when Provisioner receives heartbeat messages

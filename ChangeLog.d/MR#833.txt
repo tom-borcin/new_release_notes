@@ -1,0 +1,2 @@
+## Storage
+* FatFS: Updated FatFS API - added implementation of disk_status() callback

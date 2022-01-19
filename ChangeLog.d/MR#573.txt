@@ -1,0 +1,2 @@
+## FreeRTOS
+* Fixed thread safety issue with configASSERT

@@ -1,0 +1,2 @@
+## NimBLE
+* Clear timer handle during de-initialization

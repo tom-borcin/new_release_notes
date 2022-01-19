@@ -1,0 +1,2 @@
+## Ethernet
+* Changed RMII clock mode setting so it can be configured during run-time (#6564, #7107)

@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Added check if the BLE extend connection parameter is valid

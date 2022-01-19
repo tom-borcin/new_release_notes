@@ -1,0 +1,2 @@
+## Core System
+* esp_system: Fixed wrong exception emergency pool allocation

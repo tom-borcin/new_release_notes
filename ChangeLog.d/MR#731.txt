@@ -1,0 +1,2 @@
+## mDNS
+* Added a mdns_service_*_for_host variant for all service publish and management apis.

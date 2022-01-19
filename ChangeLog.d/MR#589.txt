@@ -1,0 +1,2 @@
+## Build System
+* CMake: Added processing of dependencies for components passed in COMPONENT_DIRS or EXTRA_COMPONENT_DIRS when the component manager is enabled

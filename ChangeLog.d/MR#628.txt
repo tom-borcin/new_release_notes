@@ -1,0 +1,2 @@
+## Tools
+* Remove dependency on idf-python and idf-python-wheels from tools.json. The dependency is handled by idf-installer for Windows. (#6881)

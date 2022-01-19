@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* MCPWM: API changed: deprecated mcpwm_isr_register, added mcpwm_capture_enable_channel

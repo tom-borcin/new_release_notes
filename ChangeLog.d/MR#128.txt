@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Added reconnection function to try reconnect after the connection fails to be established

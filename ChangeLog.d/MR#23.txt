@@ -1,0 +1,2 @@
+## OpenThread
+* Enable ot_cli on ESP32H2-Beta chip

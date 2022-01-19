@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed wifi and bt power domain leakage current in light sleep

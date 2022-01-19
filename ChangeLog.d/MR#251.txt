@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed enterprise connection issue with windows radius server <sup>(1)</sup>

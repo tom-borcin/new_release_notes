@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2S: Fixed mono mode support, slave full-duplex mode and event queue bug, finish the refactor for I2S driver layer.

@@ -1,0 +1,2 @@
+## Core System
+* Support NOINIT segment on SPIRAM (#4728)

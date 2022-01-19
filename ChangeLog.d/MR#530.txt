@@ -1,0 +1,2 @@
+## Core System
+* Updated esp_efuse_table.csv, added extended 2 bytes mac address and BOOT_DISABLE_FAST_WAKE for ESP32-H2.

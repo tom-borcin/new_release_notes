@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: Ensure the driver object is in SRAM even PSRAM is malloc-able (#7044)

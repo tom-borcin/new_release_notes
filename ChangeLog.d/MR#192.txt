@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh: Added esp_mesh_send_block_time to set blocking time of esp_mesh_send <sup>(1)</sup>

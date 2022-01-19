@@ -1,0 +1,2 @@
+## Security
+* AES/SHA: Fixed driver resetting the wrong DMA channel <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## FreeRTOS
+* Changed default FREERTOS_IDLE_TASK_STACKSIZE value

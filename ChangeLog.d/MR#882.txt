@@ -1,0 +1,2 @@
+## Examples
+* I2C: Added simplified example showing reading/writing to I2C sensor.

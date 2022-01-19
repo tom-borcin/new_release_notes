@@ -1,0 +1,2 @@
+## Core System
+* heap: Fixed multi_heap_get_info_impl getting the wrong largest_free_block value (https://github.com/espressif/esp-idf/issues/7808)

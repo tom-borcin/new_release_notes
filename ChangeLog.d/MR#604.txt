@@ -1,0 +1,2 @@
+## Bootloader
+* User defined bootloader components which contain a Kconfig[.projbuild] file can now be configured through menuconfig, under Components config.

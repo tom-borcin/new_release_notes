@@ -1,0 +1,2 @@
+## Examples
+* I2S: Added I2S digital MEMS PDM microphone example.

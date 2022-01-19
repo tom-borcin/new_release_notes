@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed amsdu and fragment vulnerabilities. <sup>(1)</sup>

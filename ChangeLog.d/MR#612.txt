@@ -1,0 +1,2 @@
+## newlib libc
+* Fixed missing atomic load/store operations when building with Clang (#7591).

@@ -1,0 +1,2 @@
+## Security
+* AES/SHA: Fixed issue with descriptors and buffer potentially being placed in RTC ram

@@ -1,0 +1,2 @@
+## LWIP
+* esp_netif: Fixed incorrect setting of SLIP interface default routing priorities (#7246)

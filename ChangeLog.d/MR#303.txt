@@ -1,0 +1,2 @@
+## Ethernet
+* DM9051: Fixed potential missing Rx interrupts causing the Ethernet interface not responding (#6414) <sup>(1)</sup>

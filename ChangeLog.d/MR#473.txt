@@ -1,0 +1,2 @@
+## Core System
+* digital & rtc voltage mostly higher than before when cpu run 40M. <sup>(1)</sup>

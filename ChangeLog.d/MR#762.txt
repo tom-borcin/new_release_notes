@@ -1,0 +1,2 @@
+## HTTP Client
+* Fixed https_async demo by adding appropriate server verification option.

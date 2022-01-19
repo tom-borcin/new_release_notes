@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Added change to free resources in deinit that were allocated during controller init procedure

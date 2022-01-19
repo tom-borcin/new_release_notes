@@ -1,0 +1,2 @@
+## Core System
+* Added missing 64-bit stdatomic operations (#3163)

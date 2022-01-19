@@ -1,0 +1,2 @@
+## Documentation
+* LEDC: Adjusted ESP32-C3 documentation

@@ -1,0 +1,2 @@
+## OpenThread
+* Publish _meshcop._mdns service

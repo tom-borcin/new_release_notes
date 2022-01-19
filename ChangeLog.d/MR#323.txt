@@ -1,0 +1,2 @@
+## Security
+* Updated Memory protection component (memprot) API and tests for ESP32-C3 and ESP32-S2 <sup>(1)</sup>

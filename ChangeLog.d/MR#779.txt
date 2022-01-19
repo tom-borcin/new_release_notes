@@ -1,0 +1,2 @@
+## Provisioning
+* Fixed wifi warning in wifi_prov_mgr application <sup>(1)</sup>

@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed high duty cycle directed advertising will not be stopped when timeout

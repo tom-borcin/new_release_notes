@@ -1,0 +1,2 @@
+## HTTP Server
+* HTTPD: Updated httpd_get_client_list function and its documentation.

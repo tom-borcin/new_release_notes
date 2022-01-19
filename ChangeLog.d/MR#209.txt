@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed watchdog issue when receiving action frame <sup>(1)</sup>

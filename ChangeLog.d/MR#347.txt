@@ -1,0 +1,2 @@
+## Security
+* NVS: Added NVS partitions "encrypted" flag related v4.3 backward compatibility config

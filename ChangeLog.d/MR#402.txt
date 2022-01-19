@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* GDMA: added gdma_set_transfer_ability to set channel transfer ability (e.g. alignment)

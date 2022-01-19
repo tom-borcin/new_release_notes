@@ -1,0 +1,2 @@
+## NimBLE
+* Fixed ‘Impersonation in the Passkey Entry Protocol’ Vulnerability.

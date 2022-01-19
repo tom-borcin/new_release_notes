@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* ADC: Added an ADC single read and calibration example for all chips

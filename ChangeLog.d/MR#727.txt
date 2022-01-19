@@ -1,0 +1,2 @@
+## mDNS
+* Fixed crash when wifi interface get deleted and mdns continues to receives the packets <sup>(1)</sup>

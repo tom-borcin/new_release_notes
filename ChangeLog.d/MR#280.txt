@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed Test PHY/RTC functions called when cache is disabled of ESP32

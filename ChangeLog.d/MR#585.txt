@@ -1,0 +1,2 @@
+## Build System
+* Any alignment is now permitted for .flash.rodata section as (custom) application version information is now in a separate section. <sup>(1)</sup>

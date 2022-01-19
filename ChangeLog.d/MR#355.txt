@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Fixed incorrect reading of register outside of defined area descriptor (#6571)

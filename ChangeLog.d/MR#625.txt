@@ -1,0 +1,2 @@
+## Tools
+* ESP-IDF Windows Online installer - installation of ESP-IDF using very small installer which downloads all required resources from internet (https://github.com/espressif/idf-installer)

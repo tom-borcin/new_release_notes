@@ -1,0 +1,2 @@
+## ESP-TLS
+* Prevent freeing of global ca_store when mbedtls dynamic cert free is enabled. <sup>(1)</sup>

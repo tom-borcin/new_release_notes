@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* Fixed the device can not receive IP_EVENT_STA_GOT_IP when the router restarted

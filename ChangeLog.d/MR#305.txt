@@ -1,0 +1,2 @@
+## Ethernet
+* Updated link status logic to use esp_timer to check link status

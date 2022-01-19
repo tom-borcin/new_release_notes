@@ -1,0 +1,2 @@
+## ESP-BLE-Mesh
+* Recommend to use OOB mechanism to exchange Public Key (CVE-2020-26559)

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Fixed compilation error when FMB_COMM_MODE_TCP_EN is disabled;

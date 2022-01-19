@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Increase the maximum modbus tasks priority

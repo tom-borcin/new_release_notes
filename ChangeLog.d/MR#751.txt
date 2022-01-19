@@ -1,0 +1,2 @@
+## OTA
+* app_update: Added API to get partition count in esp_ota_ops.h

@@ -1,0 +1,2 @@
+## OpenThread
+* Added esp_openthread_init esp_openthread_launch_mainloop and esp_openthread_deinit for simplified OpenThread initialization and launch logic.

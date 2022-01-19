@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed issue of reason code change from 15 to 200 when provided with wrong password <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI: Added spi_slave_hd append mode example

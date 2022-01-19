@@ -1,0 +1,2 @@
+## Core System
+* Added new choice of target ESP32-H2 in efuse_table_gen.py

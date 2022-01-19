@@ -1,0 +1,2 @@
+## ESP-BLE-Mesh
+* Fixed provisioning input/output authentication number should be at least 1

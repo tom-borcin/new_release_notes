@@ -1,0 +1,2 @@
+## LWIP
+* Added default declaration and weak implementation for the new IPv6 gateway hook.

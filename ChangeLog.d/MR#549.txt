@@ -1,0 +1,2 @@
+## Core System
+* Pthread: reader-writer locks implementation

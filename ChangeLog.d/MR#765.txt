@@ -1,0 +1,2 @@
+## HTTP Client
+* Fix when receive FIN, close the connection in internal.

@@ -1,0 +1,2 @@
+## Examples
+* MCPWM: Cleaned up BLDC Hall sensor example

@@ -1,0 +1,2 @@
+## Core System
+* Place xtensa_intr_asm into IRAM <sup>(1)</sup>

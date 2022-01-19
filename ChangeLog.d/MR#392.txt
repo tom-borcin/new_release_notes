@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* Use common check macro in drivers, that can be disabled to reduce binary size.

@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Fixed the issue bt_spp_acceptor example fails when SPP is initiated on a windows machine using Realtek Bluetooth adapter

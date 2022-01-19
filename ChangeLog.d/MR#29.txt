@@ -1,0 +1,2 @@
+## OpenThread
+* Added ftd.cmake for build FTD and radio.cmake for build RCP

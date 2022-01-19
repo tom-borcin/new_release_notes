@@ -1,0 +1,2 @@
+## Tools
+* ESP-IDF Windows Offline installer - installation of ESP-IDF without need to access internet (https://github.com/espressif/idf-installer)

@@ -1,0 +1,2 @@
+## FreeRTOS
+* Upgraded to 10.4.3

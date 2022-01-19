@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* GDMA: Separate interrupt for TX and RX channel

@@ -1,0 +1,2 @@
+## newlib libc
+* Implemented __sync atomic APIs and __atomic_exchange_n for architectures that don't have atomic instructions <sup>(1)</sup>

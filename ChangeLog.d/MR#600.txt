@@ -1,0 +1,2 @@
+## Bootloader
+* Enabled clock glitch detection <sup>(1)</sup>

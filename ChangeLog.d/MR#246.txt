@@ -1,0 +1,2 @@
+## Wi-Fi
+* esp_supplicant: Make esp_rrm_send_neighbor_rep_request return proper error <sup>(1)</sup>

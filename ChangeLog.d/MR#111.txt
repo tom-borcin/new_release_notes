@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* SPP: Added some common FAQs in SPP Demo README.

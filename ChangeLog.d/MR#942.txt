@@ -1,0 +1,2 @@
+## Documentation
+* Made Classic BT Documents only visible for ESP32

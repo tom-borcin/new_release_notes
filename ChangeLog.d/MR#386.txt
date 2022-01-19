@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Fixed slave destroy bug when master and slave init simultaneously

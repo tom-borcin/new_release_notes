@@ -1,0 +1,2 @@
+## Examples
+* LCD/LVGL: Added LVGL porting example

@@ -1,0 +1,2 @@
+## Core System
+* Added support describe structures of efuses in efuse_table

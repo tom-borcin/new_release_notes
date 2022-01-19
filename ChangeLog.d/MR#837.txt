@@ -1,0 +1,2 @@
+## External Libraries
+* coap: Update libcoap version to v4.3.0

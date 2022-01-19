@@ -1,0 +1,2 @@
+## Core System
+* Pthread condition variable static initializer PTHREAD_COND_INITIALIZER is now supported

@@ -1,0 +1,2 @@
+## Core System
+* Calling esp_log_level_set("*", level) now also changes the log output of ESP_DRAM_LOG and ESP_EARLY_LOG macros (#2285)

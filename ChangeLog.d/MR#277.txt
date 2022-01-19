@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added WPA3 192bit certification support.

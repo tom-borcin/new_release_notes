@@ -1,0 +1,2 @@
+## Tools
+* Added xtensa-esp32-elf-clang to tools.json dependencies

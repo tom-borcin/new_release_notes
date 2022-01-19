@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* USB: Fixed incorrect setting of D- pull down resistor

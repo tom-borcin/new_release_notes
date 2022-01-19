@@ -1,0 +1,2 @@
+## Security
+* Secure boot/ESP32 (ESP-S2, ESP32-C3): Disabled the ability to read protect efuses containing public key digest <sup>(1)</sup>

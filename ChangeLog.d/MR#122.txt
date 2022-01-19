@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed bluedroid host report connection address error when remote device used RPA address

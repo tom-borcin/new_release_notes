@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HID: Added BTC layer and API for HID host

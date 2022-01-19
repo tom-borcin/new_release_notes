@@ -1,0 +1,2 @@
+## Examples
+* pppos_client: Fixed modem netif deinit to clear IP events (#6787)

@@ -1,0 +1,3 @@
+## Bluetooth Controller
+### Classic Bluetooth
+* Decouple Wi-Fi and bluetooth with coexist to reduce binary file size

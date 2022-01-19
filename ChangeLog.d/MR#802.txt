@@ -1,0 +1,2 @@
+## ESP-TLS
+* Improved error messages when using debug mode

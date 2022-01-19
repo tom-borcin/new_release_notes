@@ -1,0 +1,2 @@
+## Tools
+* idf.py: Added subcommand "docs" for opening documentation in browser

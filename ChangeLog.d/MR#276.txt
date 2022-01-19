@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added GCMP, GCMP256, GMAC, GMAC256 support for ESP32C3/ESP32S3.

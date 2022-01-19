@@ -1,0 +1,2 @@
+## Core System
+* CXX: Fixed C++ exception stubs. No linkage of large unwinding code parts when building with -fno-exception anymore.

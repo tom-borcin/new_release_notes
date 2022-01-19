@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* Fixed the issue that layer2 node connect to lower-layer node when FIXED-ROOT root disappeared

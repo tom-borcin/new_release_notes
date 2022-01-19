@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Flash: Increase the CS line setup used by the driver to make it more stable

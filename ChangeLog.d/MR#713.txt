@@ -1,0 +1,2 @@
+## LWIP
+* Fixed DHCP Server to remove clients record if request not acked (#6410)

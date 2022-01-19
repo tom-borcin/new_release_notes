@@ -1,0 +1,2 @@
+## FreeRTOS
+* Disabling asserts for the entire project (or setting silent) now applies to the FreeRTOS assert configuration

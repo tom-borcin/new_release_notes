@@ -1,0 +1,2 @@
+## Tools
+* Console: Improve linenoise implementation (#7254)

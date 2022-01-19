@@ -1,0 +1,2 @@
+## Core System
+* esp_timer: Added ESP_TIMER_ISR dispatch method

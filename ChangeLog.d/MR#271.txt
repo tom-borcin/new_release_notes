@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added support of wifi power save for ESP32-S3

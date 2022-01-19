@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* LEDC: Added ledc fade end callback feature

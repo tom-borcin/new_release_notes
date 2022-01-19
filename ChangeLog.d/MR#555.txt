@@ -1,0 +1,2 @@
+## Core System
+* rtc clock calibration: Fixed bootup time increase when using usb-serial-jtag

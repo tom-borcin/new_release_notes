@@ -1,0 +1,2 @@
+## Tools
+* esptool/espefuse: Fixed execute_scripts, it should call BURN once at the end

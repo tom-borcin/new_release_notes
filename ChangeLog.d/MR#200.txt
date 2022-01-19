@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed an issue that Wi-Fi stack may crash when receive AMSDU length bigger then 3200 <sup>(1)</sup>

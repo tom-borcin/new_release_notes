@@ -1,0 +1,2 @@
+## FreeRTOS
+* Fixed uninitialized uxTaskNumber at task initialization <sup>(1)</sup>

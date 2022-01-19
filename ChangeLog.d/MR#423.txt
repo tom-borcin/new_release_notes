@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SDMMC: Added provision for configuring SDMMC pins on ESP32-S3 via sdmmc_slot_config_t structure.

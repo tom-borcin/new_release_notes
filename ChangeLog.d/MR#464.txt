@@ -1,0 +1,2 @@
+## Core System
+* ULP: Fixed build system bug where linker script wasn't updated if memory reserved for ULP changed. <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## HTTP Client
+* Added support to enable crt_bundle for an https connection.

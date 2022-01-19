@@ -1,0 +1,2 @@
+## Core System
+* Support .bss segment placed in spiram for ESP32-S2

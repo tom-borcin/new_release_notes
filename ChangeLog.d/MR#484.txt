@@ -1,0 +1,2 @@
+## Core System
+* partition_table: Fixed case when a few similar to otadata partitions are in the table <sup>(1)</sup>

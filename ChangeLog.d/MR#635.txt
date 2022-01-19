@@ -1,0 +1,2 @@
+## Tools
+* Use Linux i386/AMD64 binaries on FreeBSD (#7226)

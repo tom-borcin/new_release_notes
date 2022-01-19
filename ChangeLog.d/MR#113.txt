@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HFP: Fixed issue that acl can't disconnect when hfp_client disconnect.

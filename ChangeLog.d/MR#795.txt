@@ -1,0 +1,2 @@
+## mbedTLS
+* Decrease SSL peak heap cost by around 30% in dynamic buffer configuration feature

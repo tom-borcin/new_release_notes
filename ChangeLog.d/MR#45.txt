@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fixed live lock issue in Bluetooth interrupt immediately, to make sure interrupt response speed

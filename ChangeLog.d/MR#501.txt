@@ -1,0 +1,2 @@
+## Core System
+* Fixed rtc watchdog reset when running multicore app on single core variant of target; abort instead

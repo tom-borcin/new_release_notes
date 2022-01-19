@@ -1,0 +1,2 @@
+## Power Management
+* Fixed deep sleep issue caused by the mixed use of deep sleep and light sleep <sup>(1)</sup>

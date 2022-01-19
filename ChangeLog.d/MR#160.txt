@@ -1,0 +1,2 @@
+## NimBLE
+* Added separate option to enable bonding which fixed forget device iOS issue

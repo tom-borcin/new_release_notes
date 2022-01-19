@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Added an option in menuconfig to configure maximum GATT services

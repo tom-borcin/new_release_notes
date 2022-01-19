@@ -1,0 +1,2 @@
+## HTTP Client
+* Support HTTP_EVENT_ERROR event under multiple failure scenarios

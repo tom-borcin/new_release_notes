@@ -1,0 +1,2 @@
+## NimBLE
+* Fixed issue of crash during timer deletion

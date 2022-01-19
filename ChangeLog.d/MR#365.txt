@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Slave: Fixed TX/RX maximum bit length HW register configuration for ESP32

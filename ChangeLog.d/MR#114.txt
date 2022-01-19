@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* Fixed the crash when using legacy paring with wrong pin code

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Support embedding multiple phy init data bin into app bin. <sup>(1)</sup>

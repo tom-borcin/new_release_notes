@@ -1,0 +1,2 @@
+## Security
+* Fixed the Memprot feature check in `esp_restart()`

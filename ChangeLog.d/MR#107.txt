@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* A2DP: Fixed A2DP sink blocked issues.

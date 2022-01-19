@@ -1,0 +1,2 @@
+## Wi-Fi
+* Move unused wifi log to noload section to save binary size <sup>(1)</sup>

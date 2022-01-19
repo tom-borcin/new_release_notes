@@ -1,0 +1,2 @@
+## OpenThread
+* Porting and border routing features are now provided by prebuilt libraries

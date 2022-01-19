@@ -1,0 +1,2 @@
+## Core System
+* rtc clock calibration: Fixed multi-calibration process protection logic <sup>(1)</sup>

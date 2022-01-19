@@ -1,0 +1,2 @@
+## Ethernet
+* Fixed esp_eth_ioctl command's data argument non-standard handling

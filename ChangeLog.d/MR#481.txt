@@ -1,0 +1,2 @@
+## Core System
+* esp_system: Added sync of FRC & RTC counters in esp_restart <sup>(1)</sup>

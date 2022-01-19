@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Support low duty cycle directed advertising for ESP32-C3 and ESP32-S3

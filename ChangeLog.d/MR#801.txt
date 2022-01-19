@@ -1,0 +1,2 @@
+## ESP-TLS
+* Fixed potential issue in wolfSSL wrapper that esp_tls_read/write() returning positive code on error

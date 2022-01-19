@@ -1,0 +1,2 @@
+## Wi-Fi
+* Restructured wpa_supplicant's crypto code.

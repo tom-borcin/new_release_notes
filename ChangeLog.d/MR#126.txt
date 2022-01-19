@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Optimize multi-connection for ESP32-C3 and ESP32-S3

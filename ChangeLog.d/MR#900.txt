@@ -1,0 +1,2 @@
+## Examples
+* README files added for the  Bluetooth Bluedroid BLE50  examples

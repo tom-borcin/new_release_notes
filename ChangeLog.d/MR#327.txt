@@ -1,0 +1,2 @@
+## Security
+* Secure Boot V2: Confirm if the running app is signed by a valid non-revoked key before revocation <sup>(1)</sup>

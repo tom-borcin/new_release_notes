@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HF-AG: Fix ag use dynamic memory error.

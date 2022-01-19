@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* RMT: Support invert RMT signal by GPIO matrix

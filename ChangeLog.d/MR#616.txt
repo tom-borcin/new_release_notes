@@ -1,0 +1,2 @@
+## newlib libc
+* newlib: Additional atomic builtins were implemented: `__atomic_OP_fetch_n`, `__sync_OP_and_fetch_n`, all `nand` related builtins (https://github.com/espressif/arduino-esp32/issues/5948)

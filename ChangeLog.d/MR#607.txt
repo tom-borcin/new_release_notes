@@ -1,0 +1,2 @@
+## Bootloader
+* Fixed and re-enable bootloader_debug_buffer function for logging relevant Bootloader buffers

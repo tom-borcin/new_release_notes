@@ -1,0 +1,2 @@
+## Wi-Fi
+* Added ASAP mode support in FTM operations. In FTM Responder mode, added support for up to 3 FTM initiators simultaneously <sup>(1)</sup>

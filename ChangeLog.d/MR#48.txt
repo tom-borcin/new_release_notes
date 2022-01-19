@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Use correct addresses of Bluetooth Low Power Clock registers on Chip 7.2.8 ESP32-S3

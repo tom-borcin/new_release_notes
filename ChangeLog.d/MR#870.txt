@@ -1,0 +1,2 @@
+## Examples
+* ESP32S3 support for ESP-MQTT SSL Mutual Authentication with Digital Signature

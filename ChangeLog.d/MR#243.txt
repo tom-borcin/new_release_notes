@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed nvs init status issue. <sup>(1)</sup>

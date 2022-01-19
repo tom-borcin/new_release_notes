@@ -1,0 +1,2 @@
+## Build System
+* By default when using CMake, the FILE macro now replaces any IDF_PATH or project path with a placeholder relative path. This can be disabled in project config.

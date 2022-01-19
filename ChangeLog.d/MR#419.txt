@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* MCPWM: Added new function to get duty in microseconds: mcpwm_get_duty_in_us()

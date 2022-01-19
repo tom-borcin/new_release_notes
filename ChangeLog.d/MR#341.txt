@@ -1,0 +1,2 @@
+## Security
+* flash_encrypt: Added API to switch flash encryption "Development" to "Release"

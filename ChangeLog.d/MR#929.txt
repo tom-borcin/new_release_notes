@@ -1,0 +1,2 @@
+## Documentation
+* Added chip support matrix to the main README

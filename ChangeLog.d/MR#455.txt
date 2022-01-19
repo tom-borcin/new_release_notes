@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* USB_SERIAL_JTAG: Can print through USB_SER_JTAG port without changing the config option from UART

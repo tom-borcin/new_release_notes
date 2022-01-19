@@ -1,0 +1,2 @@
+## HTTP Client
+* Added support of client_key_password for HTTPS connection <sup>(1)</sup>

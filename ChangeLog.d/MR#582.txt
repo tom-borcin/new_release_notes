@@ -1,0 +1,2 @@
+## Build System
+* Fixed .flash.text alignment causing cache issue. <sup>(1)</sup>

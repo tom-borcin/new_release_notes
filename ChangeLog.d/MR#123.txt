@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Added option to enable/disable ESP32 controller RPA

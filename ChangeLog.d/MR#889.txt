@@ -1,0 +1,2 @@
+## Examples
+* MCPWM: Removed basic config example

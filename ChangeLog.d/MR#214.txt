@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed ESPTouch v2 issues <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Core System
+* hHAL: re-structured duplicated HAL layer functions

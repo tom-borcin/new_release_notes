@@ -1,0 +1,2 @@
+## Wi-Fi
+* wpa_supplicant: Fix wps_free_pins to remove all pins

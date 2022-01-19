@@ -1,0 +1,2 @@
+## TCP Transport
+* Used common TCP transport from esp-tls to reduce code duplication.

@@ -1,0 +1,2 @@
+## OpenThread
+* Added the OPENTHREAD_BORDER_ROUTER Kconfig option

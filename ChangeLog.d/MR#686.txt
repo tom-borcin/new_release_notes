@@ -1,0 +1,2 @@
+## Power Management
+* Fixed WiFi/BT MAC BB power down in light sleep

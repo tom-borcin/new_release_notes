@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Changed the default value of FMB_TIMER_PORT_ENABLED to disabled

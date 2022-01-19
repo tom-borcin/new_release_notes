@@ -1,0 +1,2 @@
+## Core System
+* Added option to set maximum compile time log level higher than default (#5542)

@@ -1,0 +1,2 @@
+## newlib libc
+* Fixed missing atomic libcalls SYNC_LOCK_TEST_AND_SET & SYNC_LOCK_RELEASE for supported integer types. (#7592)

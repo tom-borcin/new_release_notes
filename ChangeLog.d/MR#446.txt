@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* USB_SERIAL_JTAG: Added blocking driver for supporting VFS.

@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/ps: Modify beacon interval to 300ms when ps is enabled. <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed return type of esp_wifi_deinit when Wi-Fi is not stopped <sup>(1)</sup>

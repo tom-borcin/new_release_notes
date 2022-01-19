@@ -1,0 +1,2 @@
+## Wi-Fi Mesh
+* mesh/ps: Remove the support of MESH_PS_NETWORK_DUTY_APPLIED_UPLINK. <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## ESP-BLE-Mesh
+* Added check of Provisioning Random & Confirmation sent/received by Provisioner (CVE-2020-26556 & CVE-2020-26560).

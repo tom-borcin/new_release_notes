@@ -1,0 +1,2 @@
+## LWIP
+* Fixed DNS server index to overflow to DNS_MAX_SERVERS causing LWIP_ASSERT (to enable local queries when no DNS server is set, #6878) <sup>(1)</sup>

@@ -1,0 +1,3 @@
+## Bluedroid
+### Bluetooth Low Energy
+* Fixed BLE can't resolve the peer address when whitelist is enabled for ESP32.

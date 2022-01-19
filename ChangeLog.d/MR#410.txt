@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* LCD: RGB LCD supports putting frame buffer in PSRAM

@@ -1,0 +1,2 @@
+## Build System
+* Always compile with -fno-jump-tables -fno-tree-switch-conversion to avoid that code that needs to be placed in IRAM is optimized into jump tables which could get placed in flash.

@@ -1,0 +1,2 @@
+## NimBLE
+* Removed critical log level value from menuconfig.

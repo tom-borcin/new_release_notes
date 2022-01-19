@@ -1,0 +1,2 @@
+## Core System
+* log: excluding log_linux.c correctly now

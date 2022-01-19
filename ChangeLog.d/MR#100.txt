@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* SPP：Added parameter scn with event ESP_SPP_SRV_STOP_EVT

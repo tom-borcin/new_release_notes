@@ -1,0 +1,2 @@
+## Documentation
+* Expanded documentation for POSIX Threads (pthread) support

@@ -1,0 +1,2 @@
+## LWIP
+* Added new options to set maximum number of SNTP servers and optionally receiving them via DHCP (#7336)

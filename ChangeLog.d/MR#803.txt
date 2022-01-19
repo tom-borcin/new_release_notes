@@ -1,0 +1,2 @@
+## ESP-TLS
+* esp-tls: Enable DS peripheral support on ESP32S3 target

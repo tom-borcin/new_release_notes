@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* UART: Fix uart_enable_tx_intr can't disable the interrupt (fixes https://github.com/espressif/esp-idf/issues/8150)

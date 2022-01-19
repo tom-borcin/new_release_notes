@@ -1,0 +1,2 @@
+## LWIP
+* Fixed esp_ping_new_session may return ESP_OK when the error occurred <sup>(1)</sup>

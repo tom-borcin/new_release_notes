@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* Fixed C3/S3 multi-connection failed when device acts as master and slave at the same time

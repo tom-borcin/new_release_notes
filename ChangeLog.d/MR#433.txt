@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Flash: Added new feature to read the unique id for flash chips (#4255)

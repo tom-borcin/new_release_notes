@@ -1,0 +1,2 @@
+## Build System
+* Modifying the linker script file triggers now a relink <sup>(1)</sup>

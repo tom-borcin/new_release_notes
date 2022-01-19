@@ -1,0 +1,2 @@
+## Security
+* Secure Boot V2: Fixed compiler warning and possible ignoring of DRBG internal failure when verifying Secure Boot signature during OTA. This bug had no security impact. <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## OTA
+* Fixed app crash when running OTA and OTA related task's stack is in rtc fast memory at the same time

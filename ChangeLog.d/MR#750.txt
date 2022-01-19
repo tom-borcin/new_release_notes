@@ -1,0 +1,2 @@
+## OTA
+* Added esp_https_ota_get_image_size() to retrieve total size of OTA update

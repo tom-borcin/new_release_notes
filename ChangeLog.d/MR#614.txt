@@ -1,0 +1,2 @@
+## newlib libc
+* Fixed several missing includes and declarations, added extern "C" guards in uio.h

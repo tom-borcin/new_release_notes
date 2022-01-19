@@ -1,0 +1,2 @@
+## Documentation
+* MSPI: Added a programming guide about configuring Flash and PSRAM on ESP32-S3

@@ -1,0 +1,2 @@
+## Tools
+* Fixed ldgen not allowing '+' sign in archive names (https://github.com/espressif/esp-idf/issues/8073)

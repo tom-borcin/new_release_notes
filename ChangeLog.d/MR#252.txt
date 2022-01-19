@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed interoperability issue with Windows 2008 radius server. <sup>(1)</sup>

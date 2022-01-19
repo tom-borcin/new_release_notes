@@ -1,0 +1,2 @@
+## FreeRTOS
+* Fixed xStreamBufferReset function always crashing

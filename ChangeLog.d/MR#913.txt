@@ -1,0 +1,2 @@
+## Documentation
+* Updated the command used in app_trace.

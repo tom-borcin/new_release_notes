@@ -1,0 +1,2 @@
+## Core System
+* esp_common: Added generic check macros

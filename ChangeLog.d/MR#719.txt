@@ -1,0 +1,2 @@
+## LWIP
+* esp_netif: Extended PPP netif API to control connection failure

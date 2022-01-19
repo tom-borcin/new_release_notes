@@ -1,0 +1,2 @@
+## FreeRTOS
+* Apply upstream patches for stack area alignment (#7274)

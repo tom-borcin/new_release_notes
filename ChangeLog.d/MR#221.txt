@@ -1,0 +1,2 @@
+## Wi-Fi
+* Prevent reinstallation of an already in-use group key <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* USB: Added support for Mass Storage Class (MSC) for USB Host

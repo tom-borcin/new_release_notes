@@ -1,0 +1,2 @@
+## Core System
+* Fixed regression of cache access error not getting detected for APP CPU core on ESP32

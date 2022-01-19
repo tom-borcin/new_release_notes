@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed set_config return value error <sup>(1)</sup>

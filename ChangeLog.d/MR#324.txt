@@ -1,0 +1,2 @@
+## Security
+* Fixed potential physical access TOCTOU attack to remove encrypted partition flag in partition table (CVE-2021-27926) <sup>(1)</sup>

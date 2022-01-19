@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* I2C, I2S: Remove invalid definitions in headers

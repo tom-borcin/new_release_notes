@@ -1,0 +1,2 @@
+## Bootloader
+* bootloader: Silent assert option now applies when building bootloader

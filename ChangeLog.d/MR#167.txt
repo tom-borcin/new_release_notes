@@ -1,0 +1,2 @@
+## NimBLE
+* Added BLE throughput demonstration example

@@ -1,0 +1,2 @@
+## Documentation
+* Timer: Clarified that the for esp32 timer, only one clock source (APB_CLK) is available.

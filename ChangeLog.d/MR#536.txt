@@ -1,0 +1,2 @@
+## Core System
+* esp_ipc: Added API for IPC to run small pieces of code on the other CPU

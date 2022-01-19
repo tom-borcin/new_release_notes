@@ -1,0 +1,2 @@
+## Core System
+* Memory layout is now part of heap component

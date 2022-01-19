@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed the issue that connect scan may cause crash <sup>(1)</sup>

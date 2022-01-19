@@ -1,0 +1,2 @@
+## Bootloader
+* Second stage bootloader can now be overriden from a user application

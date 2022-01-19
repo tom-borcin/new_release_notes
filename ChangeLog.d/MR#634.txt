@@ -1,0 +1,2 @@
+## Tools
+* Extracted coredump functionality from idf_monitor.py into the CoreDump class

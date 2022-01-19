@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fixed bluetooth controller task watchdog in Wi-Fi test

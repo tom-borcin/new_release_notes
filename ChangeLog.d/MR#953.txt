@@ -1,0 +1,2 @@
+## Documentation
+* Timer: Updated the number of general purpose timers for ESP32-C3.

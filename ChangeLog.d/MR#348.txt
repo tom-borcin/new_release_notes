@@ -1,0 +1,2 @@
+## Security
+* AES: Removed potential unaligned access to buffers in AES-GCM which could be a problem for certain cache mappings to external PSRAM on ESP32-S2

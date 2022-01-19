@@ -1,0 +1,2 @@
+## ESP-TLS
+* esp_tls_crypto: Fixed esp_crypto_base64_encode for wolfSSL stack

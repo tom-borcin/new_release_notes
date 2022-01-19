@@ -1,0 +1,2 @@
+## NimBLE
+* Fixed WDT crash observed during security exchanges.

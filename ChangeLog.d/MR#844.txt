@@ -1,0 +1,2 @@
+## Examples
+* Added sdkconfig.deafults.esp32c3 for BLE Mesh Aligenie example <sup>(1)</sup>

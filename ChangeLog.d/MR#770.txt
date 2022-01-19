@@ -1,0 +1,2 @@
+## HTTP Server
+* Fixed ws server handle length over 1440(MTU) messages incorrectly. <sup>(1)</sup>

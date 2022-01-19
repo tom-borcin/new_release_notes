@@ -1,0 +1,2 @@
+## Power Management
+* Provide an interface to get pm_configuration <sup>(1)</sup>

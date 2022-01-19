@@ -1,0 +1,2 @@
+## Core System
+* Fixed auto adjust voltage bug on ESP32-C3 <sup>(1)</sup>

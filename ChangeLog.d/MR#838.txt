@@ -1,0 +1,2 @@
+## External Libraries
+* coap: Added multicast support for coap_server/coap_client

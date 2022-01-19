@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* SPI Flash: Added support for 32Mbit GD flash

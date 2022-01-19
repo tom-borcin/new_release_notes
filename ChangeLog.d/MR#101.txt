@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HFP: Fixed crash in btc_hf_arg_deep_copy when name or number is NULL.

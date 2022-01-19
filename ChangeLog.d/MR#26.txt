@@ -1,0 +1,2 @@
+## OpenThread
+* Support ICMPv6 auto config

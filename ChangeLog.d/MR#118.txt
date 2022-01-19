@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* HID: Support HID Device role over BR/EDR

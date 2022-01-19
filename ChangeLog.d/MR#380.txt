@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* freemodbus: Fixed error handling in mbc_master_get(set)_parameter() for duplicate parameter key in parameter descriptor list (#7362)

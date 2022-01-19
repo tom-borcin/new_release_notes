@@ -1,0 +1,2 @@
+## Core System
+* esp_rom: added implementation for linux

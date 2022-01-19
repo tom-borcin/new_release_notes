@@ -1,0 +1,2 @@
+## OpenThread
+* Support discovery delegate in border router

@@ -1,0 +1,2 @@
+## HTTP Client
+* Added API to set http client timeout value.

@@ -1,0 +1,2 @@
+## HTTP Server
+* HTTPD: Added support for calling uri handler when websocket connection is established.

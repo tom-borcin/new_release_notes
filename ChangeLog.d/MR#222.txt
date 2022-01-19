@@ -1,0 +1,2 @@
+## Wi-Fi
+* Disable FTM by default for non-FTM examples to save space <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## FreeRTOS
+* Fixed crash at startup when apptrace is enabled

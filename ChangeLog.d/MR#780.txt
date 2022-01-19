@@ -1,0 +1,2 @@
+## Provisioning
+* wifi_provisioning: Added API to erase credentials and reset provisioning state <sup>(1)</sup>

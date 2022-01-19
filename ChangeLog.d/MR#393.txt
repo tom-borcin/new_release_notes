@@ -1,0 +1,2 @@
+## Peripheral Drivers
+* HAL: Add port layer for the log in the HAL.

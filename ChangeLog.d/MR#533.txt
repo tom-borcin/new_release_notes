@@ -1,0 +1,2 @@
+## Core System
+* Fixed the clock gating signal invalid of App cpu core in esp32s3 single-core mode

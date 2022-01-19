@@ -1,0 +1,2 @@
+## Bluetooth Controller
+* Fix for C2H flow control parameter check in Bluetooth controller. Required for Nimble Host flow control to work

@@ -1,0 +1,2 @@
+## Core System
+* Bootloader: Fixed bootloader considering a load end address invalid if it was at the end of a memory area <sup>(1)</sup>

@@ -1,0 +1,2 @@
+## Wi-Fi
+* Fixed sniffer fcs error crash issue

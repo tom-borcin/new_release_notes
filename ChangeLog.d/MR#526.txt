@@ -1,0 +1,2 @@
+## Core System
+* esp_system: support backtrace on panic for RISC-V boards.

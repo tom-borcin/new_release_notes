@@ -1,0 +1,3 @@
+## Bluedroid
+### Classic Bluetooth
+* SPP: Fixed SPP acceptor open with wrong remote address

@@ -1,0 +1,2 @@
+## HTTP Client
+* HTTP method must be explicitly set in case of chunked encoding, earlier it was set to POST by default (#6234)

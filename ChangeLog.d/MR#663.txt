@@ -1,0 +1,2 @@
+## Debugging
+* coredump: Fixed a bug in esp_core_dump_image_erase when flash encryption is enabled. (#6949)
